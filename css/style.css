@@ -229,11 +229,15 @@ header {
 .content1-container1-content {
     position: absolute;
     width: calc(1146 / 1920* 100vw);
-    height: calc(830 / 1080* 100vh);
+    height: calc(832 / 1080* 100vh);
 }
 
 .title-content1-container {
-    margin: calc(123 / 1080 * 100vh) 0 0 calc(75 / 1920 * 100vw);
+    position: relative;
+    top: calc(92 / 1080 * 100vh);
+    left: calc(74 / 1920 * 100vw);
+    width: calc(828 / 1920 * 100vw);
+    height: calc(194 / 1080 * 100vh);
 }
 
 .title-content1-container h2 {
@@ -242,11 +246,11 @@ header {
     font-family: Gordita;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 80%;
     letter-spacing: calc(-3.6 / 1920 * 100vw);
 }
 
-.title-contet1-container span {
+.title-content1-container span {
     color: #FFF;
     font-family: Gordita;
     font-size: calc(90 / 1920 * 100vw);
@@ -262,7 +266,9 @@ header {
 }
 
 .subtitle-buttons--content1-container1 {
-    margin: calc(48 / 1080 * 100vh) 0 0 calc(79 / 1920 * 100vw);
+    position: absolute;
+    top: calc(365 / 1080 * 100vh);
+    left: calc(79 / 1920 * 100vw);
 }
 
 .subtitle-content1-container {
@@ -272,6 +278,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    opacity: 0.8;
 }
 
 .buttons-content1-container {
@@ -329,10 +336,6 @@ header {
     opacity: 0.5;
 }
 
-.patients-container1 {
-    margin: calc(79 / 1080 * 100vh) 0 0 calc(115 / 1920 * 100vw);
-}
-
 .content2-container1 {
     width: calc(656 / 1920 * 100vw);
     height: calc(831 / 1080 * 100vh);
@@ -341,32 +344,30 @@ header {
 }
 
 /**/
-.box {
-    width:  calc(358 / 1920 * 100vw);
-    height:  calc(242 / 1080 * 100vh);
-}
-
-.box-element-patients {
-    width:  calc(362 / 1920 * 100vw);
-    height:  calc(242 / 1080 * 100vh);
-    top: 0;
-    left: 0;
-}
 
 .box-overlap {
-    position: relative;
-    width:  calc(358 / 1920 * 100vw);
-    height:  calc(242 / 1080 * 100vh);
+    position: absolute;
+    top: calc(396 / 1080 * 100vh);
+    right: calc(42 / 1920 * 100vw);
+    width: calc(358 / 1920 * 100vw);
+    height: calc(242 / 1080 * 100vh);
     background-image: url(https://c.animaapp.com/O1yJMPG5/img/glass.svg);
     background-size: 100% 100%;
+    overflow: hidden;
 }
 
 .box-avatars {
     position: absolute;
-    width:  calc(59 / 1080 * 100vh);
+    top:  calc(421 / 1080 * 100vh);
+    right:  calc(165 / 1920 * 100vw);
+}
+
+.box-avatars img {
+
+    width:  calc(204 / 1920 * 100vw);
     height:  calc(59 / 1080 * 100vh);
-    top:  calc(25 / 1080 * 100vh);
-    left:  calc(31 / 1920 * 100vw);
+    object-fit: contain;
+
 }
 
 .box-overlap-group-wrapper {
@@ -432,14 +433,14 @@ header {
     position: absolute;
     width:  calc(302 / 1920 * 100vw);
     height:  calc(136 / 1080 * 100vh);
-    top:  calc(84 / 1080 * 100vh);
-    left:  calc(32 / 1920 * 100vw);
+    top:  calc(480 / 1080 * 100vh);
+    right:  calc(66 / 1920 * 100vw);
 }
 
 .box-text-wrapper {
     position: absolute;
     top: 0;
-    left: 0;
+    left: calc(20 / 1920 * 100vw);
     font-family: "PP Neue Montreal-Book", Helvetica;
     font-weight: 400;
     color: var(--brand-colorlight-blue);
@@ -452,8 +453,8 @@ header {
 .box-text-wrapper-2 {
     position: absolute;
     top:  calc(50 / 1080 * 100vh);
-    left:  calc(80 / 1920 * 100vw);
-    font-family: "PP Neue Montreal-Italic", Helvetica;
+    left:  calc(50 / 1920 * 100vw);
+    font-family: var(--paragraph-24px-book-font-family);
     font-weight: 400;
     font-style: italic;
     color: var(--brand-colorlight-blue);
@@ -465,10 +466,10 @@ header {
 
 .box-button {
     position: absolute;
+    top: 0;
+    right: calc(40 / 1920 * 100vw);
     width:  calc(56 / 1080 * 100vh);
     height:  calc(56 / 1080 * 100vh);
-    top:  calc(2 / 1080 * 100vh);
-    left:  calc(270 / 1920 * 100vw);
     background-color: var(--gray);
     border-radius: 28px;
     display: flex;
