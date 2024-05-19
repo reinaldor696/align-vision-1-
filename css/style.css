@@ -105,7 +105,7 @@ header {
 .resources-menu {
     display: none;
 }
-.resources-menu svg {
+.resources-menu img {
     position: absolute;
     height: calc(115 / 1080* 100vh);
     width: calc(187 / 1920* 100vw);
@@ -1211,7 +1211,7 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 246px;
+    gap: calc(246 / 1920 * 100vw);
     position: absolute;
     left:  calc(369 / 1920 * 100vw);
 }
@@ -1274,7 +1274,7 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 246px;
+    gap: calc(246 / 1920 * 100vw);
     position: absolute;
     left:  calc(369 / 1920 * 100vw);
 }
@@ -1308,7 +1308,7 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 246px;
+    gap: calc(246 / 1920 * 100vw);
     position: absolute;
     left:  calc(369 / 1920 * 100vw);
 }
@@ -1371,6 +1371,8 @@ header {
     top: 3.4375vw;
     left: 2.604167vw;
     border-radius: 1.5625vw;
+    border: calc(1 / 1080 * 100vw) solid var(--Brand-color-Secondary, rgb(31, 66, 131, 0.25));
+    background: linear-gradient(101deg, rgb(255, 255, 255, 0.25) 3.27%, rgb(184, 209, 255, 0.25) 27.11%, rgb(216, 230, 253, 0.25) 75.74%);
 }
 
 .container4-content-vector {
@@ -5113,11 +5115,11 @@ footer {
 
 .footer-btn {
     all: unset;
+    font-size: calc(25 / 1920 * 100vw);
     box-sizing: border-box;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     padding: calc(18 / 1080 * 100vh) calc(43 / 1920 * 100vw);
     position: absolute;
     top:  calc(404 / 1080 * 100vh);
@@ -5153,7 +5155,7 @@ footer {
 .footer-links {
     display: inline-flex;
     align-items: flex-start;
-    gap: 62px;
+    gap: calc(62 / 1920 * 100vw);
     position: absolute;
     top:  calc(372 / 1080 * 100vh);
     left:  calc(177 / 1920 * 100vw);
@@ -5165,7 +5167,7 @@ footer {
     width:  calc(315 / 1920 * 100vw);
     align-items: flex-start;
     justify-content: center;
-    gap: 8px;
+    gap: calc(8 / 1080 * 100vh);
     padding: calc(10 / 1080 * 100vh) calc(10 / 1920 * 100vw);
     position: relative;
 }
@@ -5180,7 +5182,7 @@ footer {
 .footer-link-2 {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: calc(10 / 1920 * 100vw);
     position: relative;
     top:  calc(6 / 1080 * 100vh);
 }
@@ -5210,7 +5212,7 @@ footer {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 31px;
+    gap: calc(31 / 1080 * 100vh);
     position: relative;
     flex: 0 0 auto;
 }
