@@ -2436,9 +2436,9 @@ header {
     left: 26.354167vw;
     border-radius: calc(30 / 1080 * 100vh) calc(30 / 1920 * 100vw);
     overflow: hidden;
-    border: 4px solid;
-    border-color: transparent;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    border: calc(4 / 1080 * 100vh) solid;
+    border-image: linear-gradient(154deg, #FFF -4.25%, #EAF2FF 22.67%, #FFF 88.04%);
+    background: linear-gradient(154deg, #FFF -4.25%, #EAF2FF 22.67%, #FFF 88.04%);
 }
 
 .services-div-3 {
@@ -2469,10 +2469,10 @@ header {
     justify-content: center;
     padding: calc(16 / 1080 * 100vh) 1.041667vw;
     position: absolute;
-    top: calc(3 / 1080 * 100vh);
-    left: 14.114583vw;
+    top: calc(0 / 1080 * 100vh);
+    right: calc(0 / 1920 * 100vw);
     background-color: #94ace8;
-    border-radius: calc(0 / 1080 * 100vh) calc(0 / 1920 * 100vw);
+    border-radius: calc(0 / 1080 * 100vh) calc(14 / 1920 * 100vw);
 
 }
 
@@ -2603,8 +2603,8 @@ header {
     border: 4px solid;
     border-color: transparent;
     box-shadow: 0px 4px 4px #94ace840;
-    border-image: linear-gradient(to bottom) 1;
-    background: linear-gradient(180deg);
+    border-image: linear-gradient(154deg, #FFF -4.25%, #EAF2FF 22.67%, #FFF 88.04%);;
+    background: linear-gradient(154deg, #FFF -4.25%, #EAF2FF 22.67%, #FFF 88.04%);
 }
 
 .services-price-3 {
@@ -2650,9 +2650,9 @@ header {
     padding: calc(16 / 1080 * 100vh) 1.041667vw;
     position: absolute;
     top: 0;
-    left: 12.291667vw;
+    right: 0;
     background-color: #94ace8;
-    border-radius: calc(0 / 1080 * 100vh) calc(0 / 1920 * 100vw);
+    border-radius: calc(0 / 1080 * 100vh) calc(13 / 1920 * 100vw);
 }
 
 .services-most-popular-2 {
