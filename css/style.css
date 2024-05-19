@@ -2275,7 +2275,7 @@ header {
     position: absolute;
     width: 21.25vw;
     height: calc(1 / 1080 * 100vh);
-    top: calc(444 / 1080 * 100vh);
+    top: calc(448 / 1080 * 100vh);
     left: .729167vw;
     object-fit: cover;
 }
@@ -2598,7 +2598,7 @@ header {
     position: relative;
     width: 19.895833vw;
     height: calc(195 / 1080 * 100vh);
-    border-radius: calc(30 / 1080 * 100vh) calc(30 / 1920 * 100vw);
+    border-radius: calc(30 / 1080 * 100vh);
     overflow: hidden;
     border: 4px solid;
     border-color: transparent;
