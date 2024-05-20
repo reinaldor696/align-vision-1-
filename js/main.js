@@ -40,7 +40,8 @@ function caseStudies() {
             start: '1 0',
             end: 'bottom 0',
             markers: true,
-            pin: true
+            pin: true,
+            scrub: true,
         }
     });
 
@@ -66,7 +67,7 @@ function caseStudies() {
         left: 0,
         backgroundPosition: 'bottom',
         transformOrigin: "bottom",
-        duration: 1, 
+        duration: 1,
         ease: "expoScale(0.5,7,none)",
         borderRadius: '38px',
     }, '-=1');
@@ -116,6 +117,55 @@ function caseStudies() {
         duration: 1, 
         ease: "expoScale(0.5,7,none)",
         display: 'block'
+    }, '-=1');
+
+    tl.to('.case-studies-DSC', {
+        scale: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block',
+        transformOrigin: "top",
+    });
+
+    tl.to('.case-studies-DSC-2', {
+        scale: 1,
+        opacity: 1,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        transformOrigin: "bottom",
+        borderRadius: '38px',
+    }, '-=0.9');
+
+    tl.to('.case-studies-bar-img', {
+        height: 'calc(48 / 1080 * 100vh)',
+        opacity: 1,
+        duration: 1,
+    }, '-=1');
+
+    tl.to('.case-studies-DSC-2', {
+        scale: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block',
+        transformOrigin: "top",
+    });
+
+    tl.to('.case-studies-DSC-4', {
+        scale: 1,
+        opacity: 1,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        transformOrigin: "bottom",
+    }, '-=0.9');
+
+    tl.to('.before-text', {opacity: 0, duration: 1}, '-=1');
+
+    tl.to('.procedural-video', {opacity: 1, duration: 1, delay: 0.5}, '-=1');
+
+    tl.to('.case-studies-bar-img', {
+        height: 'calc(71 / 1080 * 100vh)',
+        opacity: 1,
+        duration: 1,
     }, '-=1');
 }
 caseStudies();
