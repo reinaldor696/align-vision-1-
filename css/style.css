@@ -53,6 +53,10 @@
     --variable-collection-test: rgba(31, 66, 131, 0.12);
 }
 
+#body-background {
+    background-color: var(--gray) !important;
+}
+
 
 /* Your Style */
 
@@ -4959,6 +4963,7 @@ header {
 
 .case-studies-text-wrapper {
     position: absolute;
+    z-index: 200;
     top: calc(54 / 1080 * 100vh);
     left: calc(535 / 1920 * 100vw);
     font-family: "Gordita-Medium", Helvetica;
@@ -4973,6 +4978,7 @@ header {
 
 .case-studies-div {
     position: absolute;
+    z-index: 200;
     width: calc(1256 / 1920 * 100vw);
     top: calc(236 / 1080 * 100vh);
     left: calc(366 / 1920 * 100vw);

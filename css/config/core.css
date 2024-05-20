@@ -56,7 +56,7 @@ ul {
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  width: 1920px;
+  width: auto;
   height: auto;
 }
 /* HTML */

@@ -30,3 +30,20 @@ function closePlanComparation() {
     }
 }
 /* section services end */
+
+/* section case studies */
+function caseStudies() {
+    const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.case-studies',
+            start: 'top 122',
+            end: 'bottom 122',
+            markers: true,
+            pin: true
+        }
+    });
+
+    tl.to('.case-studies-div, .case-studies-text-wrapper', {y: '-100vh', duration: 2, ease: 'power4.out'});
+}
+caseStudies();
+/* section case studies End */
