@@ -2796,6 +2796,7 @@ header {
 }
 
 .services-button {
+    cursor: pointer;
     all: unset;
     box-sizing: border-box;
     position: absolute;
@@ -2817,6 +2818,13 @@ header {
     height: calc(24 / 1080 * 100vh);
 }
 
+.services-svg-2 {
+    display: none;
+    position: relative;
+    width: 1.25vw;
+    height: calc(24 / 1080 * 100vh);
+}
+
 .services-get-started-today-2 {
     font-family: "Gordita-Regular", Helvetica;
     font-weight: 400;
@@ -2829,8 +2837,14 @@ header {
     text-align: right;
     line-height: normal;
     white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+.view-text-services {
+    display: none;
+}
 /* Services end */
 
 /* Our blog */
