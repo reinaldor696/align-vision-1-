@@ -5025,12 +5025,14 @@ header {
     gap: calc(31.21 / 1080 * 100vh);
     padding: calc(32 / 1080 * 100vh) calc(26 / 1920 * 100vw);
     position: fixed;
-    top: calc(746 / 1080 * 100vh);
-    left: calc(496 / 1920 * 100vw);
+    bottom: calc(25 / 1080 * 100vh);
+    left: calc(30 / 1920 * 100vw);
     background-color: rgba(148, 172, 232, 0.25);
     border-radius: calc(12.11 / 1080 * 100vh);
     border: calc(0.81 / 1080 *100vh) solid #FFF;
     backdrop-filter: blur(6.0777459144592285px);
+    z-index: 3;
+    opacity: 0;
 }
 
 .case-studies-text-wrapper-2 {
@@ -5060,19 +5062,23 @@ header {
 
 .before-text {
     position: fixed;
-    top: calc(387 / 1080 * 100vh);
-    left: calc(496 / 1920 * 100vw);
+    top: calc(60 / 1080 * 100vh);
+    left: calc(30 / 1920 * 100vw);
     width: calc(97 / 1920 * 100vw);
     height: calc(35 / 1080 * 100vh);
+    z-index: 3;
+    object-fit: contain;
     display: none;
 }
 
 .scroll-text {
     position: fixed;
-    top: calc(893.05 / 1080 * 100vh);
-    right: calc(78.43 / 1920 * 100vw);
+    bottom: calc(45 / 1080 * 100vh);
+    right: calc(30 / 1920 * 100vw);
     width: calc(103 / 1920 * 100vw);
     height: calc(36.5 / 1080 * 100vh);
+    z-index: 3;
+    object-fit: contain;
     display: none;
 }
 

@@ -1,3 +1,4 @@
+window.onload = () => {window.scrollTo(0, 0);}
 /* section services */
 const servicesTitle2 = document.querySelector('.services-title-2');
 const servicesCard = document.querySelector('.services-card');
@@ -76,6 +77,46 @@ function caseStudies() {
         ease: "expoScale(0.5,7,none)",
         borderRadius: '38px',
     }, '-=0.6');
+
+    tl.set('.case-studies-time', {
+        x: -100,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+    }, '-=1');
+    
+    tl.to('.case-studies-time', {
+        x: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'flex',
+        opacity: 1
+    }, '-=1');
+
+    tl.set('.before-text', {
+        x: -100,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+    }, '-=1');
+
+    tl.to('.before-text', {
+        x: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block'
+    }, '-=1');
+
+    tl.set('.scroll-text', {
+        x: 100,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+    }, '-=1');
+
+    tl.to('.scroll-text', {
+        x: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block'
+    }, '-=1');
 }
 caseStudies();
 /* section case studies End */
