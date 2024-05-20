@@ -35,15 +35,47 @@ function closePlanComparation() {
 function caseStudies() {
     const tl = gsap.timeline({
         scrollTrigger: {
-            trigger: '.case-studies',
-            start: 'top 122',
-            end: 'bottom 122',
+            trigger: '.scroll-case-studies',
+            start: '1 0',
+            end: 'bottom 0',
             markers: true,
             pin: true
         }
     });
 
-    tl.to('.case-studies-div, .case-studies-text-wrapper', {y: '-100vh', duration: 2, ease: 'power4.out'});
+    tl.to('.case-studies-div, .case-studies-text-wrapper', {
+        y: -500, 
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)"
+    });
+
+    tl.set('.case-studies-bar-case-studies', {y: '100vh', opacity: 0, duration: 0}, '-=1');
+
+    tl.to('.case-studies-bar-case-studies', {
+        opacity: 1,
+        y: 0, 
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block'
+    }, '-=1');
+
+    tl.to('.case-studies-DSC', {
+        width: '100%',
+        height: '100%',
+        left: 0,
+        backgroundPosition: 'bottom',
+        transformOrigin: "bottom",
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        borderRadius: '38px',
+    }, '-=1');
+
+    tl.to('.case-studies-frame', {
+        y: -181,
+        duration: 0.6, 
+        ease: "expoScale(0.5,7,none)",
+        borderRadius: '38px',
+    }, '-=0.6');
 }
 caseStudies();
 /* section case studies End */

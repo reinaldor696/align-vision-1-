@@ -70,6 +70,8 @@ header {
     border-radius: calc(30 / 1080 * 100vh) calc(30 / 1920 * 100vw);
     background: #F2F3FE;
     backdrop-filter: blur(2px);
+    position: relative;
+    z-index: 50;
 }
 
 .logo-container {
@@ -4962,9 +4964,8 @@ header {
 }
 
 .case-studies-text-wrapper {
-    position: absolute;
-    z-index: 200;
-    top: calc(54 / 1080 * 100vh);
+    position: fixed;
+    top: calc(261 / 1080 * 100vh);
     left: calc(535 / 1920 * 100vw);
     font-family: "Gordita-Medium", Helvetica;
     font-weight: 500;
@@ -4977,10 +4978,9 @@ header {
 }
 
 .case-studies-div {
-    position: absolute;
-    z-index: 200;
+    position: fixed;
     width: calc(1256 / 1920 * 100vw);
-    top: calc(236 / 1080 * 100vh);
+    top: calc(443 / 1080 * 100vh);
     left: calc(366 / 1920 * 100vw);
     font-family: var(--paragraph-32-px-book-font-family);
     font-weight: var(--paragraph-32-px-book-font-weight);
@@ -4993,23 +4993,26 @@ header {
 }
 
 .case-studies-frame {
-    position: absolute;
+    position: relative;
     width: calc(1405 / 1920 * 100vw);
     height: calc(620 / 1080 * 100vh);
     top: calc(406 / 1080 * 100vh);
-    left: calc(258 / 1920 * 100vw);
+    left: calc(466 / 1920 * 100vw);
     border-radius: 38.08px;
     overflow: hidden;
 }
 
 .case-studies-DSC {
+    background-image: url('../media/icons/content-home/DSC_3163-2 1.png');
     position: absolute;
     width: calc(397 / 1920 * 100vw);
     height: calc(430 / 1080 * 100vh);
-    top: calc(37 / 1080 * 100vh);
-    left: calc(504 / 1920 * 100vw);
-    object-fit: cover;
+    top: calc(36.55 / 1080 * 100vh);
+    left: calc(304.13 / 1920 * 100vw);
+    background-size: cover;
+    background-position: center;
     border-radius: calc(22 / 1080 * 100vh) calc(22 / 1080 * 100vh) 0 0;
+    z-index: 3;
 }
 
 .case-studies-time {
@@ -5084,11 +5087,11 @@ header {
 
 .case-studies-bar-case-studies {
     position: fixed;
-    display: none;
     width: calc(344 / 1920 * 100vw);
     height: calc(514 / 1080 * 100vh);
     top: calc(387 / 1080 * 100vh);
     left: calc(50 / 1920 * 100vw);
+    display: none;
 }
 
 .case-studies-bar-overlap {
