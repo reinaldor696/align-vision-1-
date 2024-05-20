@@ -2993,6 +2993,8 @@ header {
     left: calc(50 / 1920 * 100vw);
     border-radius: calc(30 / 1080 * 100vh) calc(30 / 1920 * 100vw);
     overflow: hidden;
+    background-image: url(../media/icons/content-home/cta.png);
+    background-size: cover;
 }
 
 .our-blog-overlap-group {
@@ -3011,6 +3013,14 @@ header {
 }
 
 .our-blog-fondo-bokeh-azul {
+    position: absolute;
+    width: calc(1820 / 1920 * 100vw);
+    height: calc(425 / 1080 * 100vh);
+    top: 0;
+    left: 0;
+}
+
+.our-blog-fondo-bokeh-azul-2 {
     position: absolute;
     width: calc(1820 / 1920 * 100vw);
     height: calc(425 / 1080 * 100vh);
