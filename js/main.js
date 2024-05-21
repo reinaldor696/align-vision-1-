@@ -38,7 +38,7 @@ function caseStudies() {
         scrollTrigger: {
             trigger: '.scroll-case-studies',
             start: '1 0',
-            end: 'bottom 0',
+            end: '2300 0',
             pin: true,
             scrub: true,
         }

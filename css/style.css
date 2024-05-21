@@ -945,6 +945,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: transparent;
     border-radius: 15px;
     border: 1px solid #94ACE8;
     cursor: pointer;
