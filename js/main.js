@@ -167,6 +167,32 @@ function caseStudies() {
         opacity: 1,
         duration: 1,
     }, '-=1');
+
+    tl.to('.case-studies-DSC-4', {
+        scale: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block',
+        transformOrigin: "top",
+    });
+
+    tl.to('.case-studies-DSC-5', {
+        scale: 1,
+        opacity: 1,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        transformOrigin: "bottom",
+    }, '-=0.9');
+
+    tl.to('.procedural-video', {opacity: 0, duration: 1}, '-=1');
+
+    tl.to('.after-text', {opacity: 1, duration: 1, delay: 0.5}, '-=1');
+
+    tl.to('.case-studies-bar-img', {
+        height: 'calc(107 / 1080 * 100vh)',
+        opacity: 1,
+        duration: 1,
+    }, '-=1');
 }
 caseStudies();
 /* section case studies End */

@@ -5046,6 +5046,22 @@ header {
     z-index: 3;
 }
 
+.case-studies-DSC-5 {
+    scale: 0;
+    opacity: 0;
+    background-image: url('../media/icons/content-home/2023-12-17\ 01.34.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: calc(0 / 1080 * 100vh);
+    left: calc(0 / 1920 * 100vw);
+    background-size: cover;
+    background-position: center;
+    border-radius: calc(38 / 1080 * 100vh);
+    border-radius: calc(22 / 1080 * 100vh) calc(22 / 1080 * 100vh) 0 0;
+    z-index: 3;
+}
+
 .case-studies-time {
     display: none;
     flex-direction: column;
@@ -5111,6 +5127,17 @@ header {
     z-index: 3;
     object-fit: contain;
     display: none;
+}
+
+.after-text {
+    position: fixed;
+    top: calc(60 / 1080 * 100vh);
+    left: calc(30 / 1920 * 100vw);
+    width: calc(97 / 1920 * 100vw);
+    height: calc(35 / 1080 * 100vh);
+    z-index: 3;
+    object-fit: contain;
+    opacity: 0;
 }
 
 .scroll-text {
