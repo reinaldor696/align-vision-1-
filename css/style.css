@@ -5094,6 +5094,70 @@ header {
     z-index: 3;
 }
 
+.case-studies-DSC-8 {
+    scale: 0;
+    opacity: 0;
+    background-image: url('../media/icons/content-home/2018-04-01\ 19.27\ 1.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: calc(0 / 1080 * 100vh);
+    left: calc(0 / 1920 * 100vw);
+    background-size: cover;
+    background-position: center;
+    border-radius: calc(38 / 1080 * 100vh);
+    border-radius: calc(22 / 1080 * 100vh) calc(22 / 1080 * 100vh) 0 0;
+    z-index: 3;
+}
+
+.case-studies-DSC-9 {
+    scale: 0;
+    opacity: 0;
+    background-image: url('../media/icons/content-home/Noa0206-3\ 1.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: calc(0 / 1080 * 100vh);
+    left: calc(0 / 1920 * 100vw);
+    background-size: cover;
+    background-position: center;
+    border-radius: calc(38 / 1080 * 100vh);
+    border-radius: calc(22 / 1080 * 100vh) calc(22 / 1080 * 100vh) 0 0;
+    z-index: 3;
+}
+
+.case-studies-DSC-10 {
+    scale: 0;
+    opacity: 0;
+    background-image: url('../media/icons/content-home/2024-01-25\ 07.30\ 1.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: calc(0 / 1080 * 100vh);
+    left: calc(0 / 1920 * 100vw);
+    background-size: cover;
+    background-position: center;
+    border-radius: calc(38 / 1080 * 100vh);
+    border-radius: calc(22 / 1080 * 100vh) calc(22 / 1080 * 100vh) 0 0;
+    z-index: 3;
+}
+
+.case-studies-DSC-11 {
+    scale: 0;
+    opacity: 0;
+    background-image: url('../media/icons/content-home/2024-01-25\ 07.34\ 1.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: calc(0 / 1080 * 100vh);
+    left: calc(0 / 1920 * 100vw);
+    background-size: cover;
+    background-position: center;
+    border-radius: calc(38 / 1080 * 100vh);
+    border-radius: calc(22 / 1080 * 100vh) calc(22 / 1080 * 100vh) 0 0;
+    z-index: 3;
+}
+
 .case-studies-time {
     display: none;
     flex-direction: column;

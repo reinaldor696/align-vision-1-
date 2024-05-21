@@ -232,7 +232,6 @@ function caseStudies() {
         transformOrigin: "bottom",
     }, '-=0.9');
 
-
     tl.to('.case-studies-bar-text-wrapper-3', {display: 'none', duration: 0.1}, '-=1');
 
     tl.to('.case-studies-bar-text-wrapper-8', {scale: 1, opacity: 1}, '-=1');
@@ -256,6 +255,94 @@ function caseStudies() {
 
     tl.to('.case-studies-bar-img-2', {
         height: 'calc(27 / 1080 * 100vh)',
+        opacity: 1,
+        duration: 1,
+    }, '-=0.8');
+
+    tl.to('.case-studies-DSC-7', {
+        scale: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block',
+        transformOrigin: "top",
+    });
+
+    tl.to('.case-studies-DSC-8', {
+        scale: 1,
+        opacity: 1,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        transformOrigin: "bottom",
+    }, '-=0.9');
+
+    tl.to('.case-studies-bar-img-2', {
+        height: 'calc(54 / 1080 * 100vh)',
+        opacity: 1,
+        duration: 1,
+    }, '-=0.8');
+
+    tl.to('.case-studies-DSC-8', {
+        scale: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block',
+        transformOrigin: "top",
+    });
+
+    tl.to('.case-studies-DSC-9', {
+        scale: 1,
+        opacity: 1,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        transformOrigin: "bottom",
+    }, '-=0.9');
+
+    tl.to('.case-studies-bar-img-2', {
+        height: 'calc(84 / 1080 * 100vh)',
+        opacity: 1,
+        duration: 1,
+    }, '-=0.8');
+
+    tl.to('.case-studies-DSC-9', {
+        scale: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block',
+        transformOrigin: "top",
+    });
+
+    tl.to('.case-studies-DSC-10', {
+        scale: 1,
+        opacity: 1,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        transformOrigin: "bottom",
+    }, '-=0.9');
+
+    tl.to('.case-studies-bar-img-2', {
+        height: 'calc(125 / 1080 * 100vh)',
+        opacity: 1,
+        duration: 1,
+    }, '-=0.8');
+
+    tl.to('.case-studies-DSC-10', {
+        scale: 0,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        display: 'block',
+        transformOrigin: "top",
+    });
+
+    tl.to('.case-studies-DSC-11', {
+        scale: 1,
+        opacity: 1,
+        duration: 1, 
+        ease: "expoScale(0.5,7,none)",
+        transformOrigin: "bottom",
+    }, '-=0.9');
+
+    tl.to('.case-studies-bar-img-2', {
+        height: 'calc(181 / 1080 * 100vh)',
         opacity: 1,
         duration: 1,
     }, '-=0.8');
