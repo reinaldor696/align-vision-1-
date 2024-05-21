@@ -39,7 +39,6 @@ function caseStudies() {
             trigger: '.scroll-case-studies',
             start: '1 0',
             end: 'bottom 0',
-            markers: true,
             pin: true,
             scrub: true,
         }
@@ -235,6 +234,10 @@ function caseStudies() {
     tl.to('.case-studies-bar-text-wrapper-3', {display: 'none', duration: 0.1}, '-=1');
 
     tl.to('.case-studies-bar-text-wrapper-8', {scale: 1, opacity: 1}, '-=1');
+
+    tl.to('.case-studies-bar-case-study-2', {opacity: 1}, '-=1');
+
+    tl.to('.case-studies-bar-case-study', {opacity: 0.5}, '-=1');
 
     tl.to('.case-studies-bar-element', {
         width: 'calc(12 / 1080 * 100vh)',
