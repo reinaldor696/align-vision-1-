@@ -577,7 +577,7 @@ header {
 .img-content4-container1 img {
     width: calc(778 / 1920 * 100vw);
     height: calc(590 / 1080 * 100vh);
-    border-radius: 30px;
+    border-radius: 0 30px 30px 0;
 }
 
 .img-text-content4-container1 {
