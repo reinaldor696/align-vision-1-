@@ -81,6 +81,11 @@ header {
     background: transparent;
     width: 100%;
     margin: 0;
+    height: 585px;
+}
+
+.content1-2-container {
+    margin: 0;
 }
 
 .background1 img {
@@ -134,6 +139,13 @@ header {
     gap: calc(8 / 430 * 100vw);
 }
 
+.text-no-credit-card {
+    font-size: calc(16 / 430 * 100vw);
+    color: #94ACE8;
+    margin: 28.7px 0 0 calc(103 / 430 * 100vw);
+    font-weight: 500;
+}
+
 .get-free-btn {
     width: calc(185 / 430 * 100vw);
     height: 57px;
@@ -169,6 +181,24 @@ header {
 
 .content2-container1 {
     display: none;
+}
+
+.content3-container1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.title-content3, .content3-logo-plans {
+    display: none;
+}
+
+.content3-logo-plans-mquery {
+    display: block;
+    margin-top: 83px;
+    width: calc(430 / 430 * 100vw);
+    height: 380px;
+    object-fit: contain;
 }
 /* Container1 End */
 

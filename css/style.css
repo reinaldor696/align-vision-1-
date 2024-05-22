@@ -203,6 +203,9 @@ header {
     color: var(--Paragraph-gray);
 }
 
+.hamburger-menu-mquery {
+    display: none;
+}
 /* Header End */
 
 /* Home */
@@ -554,6 +557,10 @@ header {
 .content3-logo-plans svg {
     width: calc(1920 / 1920 * 100vw);
     height: calc(626 / 1080 * 100vh);
+}
+
+.content3-logo-plans-mquery {
+    display: none;
 }
 
 .title-content4-container1 {
