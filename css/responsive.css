@@ -66,6 +66,7 @@ header {
 }
 
 .hamburger-menu-mquery {
+    display: block;
     object-fit: contain;
     width: calc(36 / 430 * 100vw);
     height: 32px;
