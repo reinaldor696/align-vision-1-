@@ -1,12 +1,72 @@
+:root {
+    --x-1: rgba(31, 66, 131, 1);
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(242, 243, 254, 1);
+    --alternative-blue: rgba(148, 172, 232, 1);
+    --paragraph-gray: rgba(112, 124, 147, 1);
+    --gray-1: rgba(190, 190, 190, 1);
+    --fff: rgba(255, 255, 255, 1);
+    --brand-colorprimary: rgba(21, 45, 90, 1);
+    --brand-colorsecondary: rgba(31, 66, 131, 1);
+    --brand-colordark-blue: rgba(11, 24, 49, 1);
+    --brand-colorlight-blue: rgba(40, 86, 173, 1);
+    --paragraph-32-px-book-font-family: "PP Neue Montreal", Helvetica;
+    --paragraph-32-px-book-font-weight: 400;
+    --paragraph-32-px-book-font-size: calc(32 / 1920 * 100vw);
+    --paragraph-32-px-book-letter-spacing: 0px;
+    --paragraph-32-px-book-line-height: 125.99999904632568%;
+    --paragraph-32-px-book-font-style: normal;
+    --paragraph-24px-book-font-family: "PP Neue Montreal", Helvetica;
+    --paragraph-24px-book-font-weight: 400;
+    --paragraph-24px-book-font-size: calc(24 / 1920 * 100vw);
+    --paragraph-24px-book-letter-spacing: 0px;
+    --paragraph-24px-book-line-height: 150%;
+    --paragraph-24px-book-font-style: normal;
+    --test: 0px 4px 44.5px 0px rgba(31, 66, 131, 0.12);
+    --btn: 0px 4px 25px 6px rgba(31, 66, 131, 0.25);
+    --status-circle: 0px 1px 4px 0px rgba(11, 24, 49, 0.3);
+    --variable-collection-test: rgba(31, 66, 131, 0.12);
+}
+
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
-
 /* Home */
 
 /* Header */
+header {
+    width: calc(378 / 430 * 100vw);
+    height: 60px;
+    border-radius: 10px;
+    margin: 36px calc(26 / 430 * 100vw) 0 calc(26 / 430 * 100vw);
+}
 
+.logo-container {
+    margin: 20px 0 15px calc(13 / 430 * 100vw);
+}
+
+.logo-container svg {
+    width: calc(117 / 430 * 100vw);
+    height: 25px;
+}
+
+.nav-bar {
+    display: none;
+}
+
+.nav-button {
+    display: none;
+}
+
+.hamburger-menu-mquery {
+    object-fit: contain;
+    width: calc(36 / 430 * 100vw);
+    height: 32px;
+    position: absolute;
+    top: 13px;
+    right: calc(12 / 430 * 100vw);
+    cursor: pointer;
+}
 /* Header End*/
-
 
 /* Container1 */
 
