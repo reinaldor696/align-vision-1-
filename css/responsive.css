@@ -30,6 +30,14 @@
 
 /*Media queries para trabajar Mobile*/
 @media  screen and (max-width: 479px){
+.br-mobile {
+    display: block;
+}
+
+.br-desktop {
+    display: none;
+}
+
 /* Home */
 
 /* Header */
@@ -69,7 +77,99 @@ header {
 /* Header End*/
 
 /* Container1 */
+.content1-container1 {
+    background: transparent;
+    width: 100%;
+    margin: 0;
+}
 
+.background1 img {
+    display: none;
+}
+
+.content1-container1-content {
+    width: auto;
+    height: auto;
+}
+
+.title-content1-container {
+    width: auto;
+    height: auto;
+    top: 143px;
+    left: calc(26 / 430 * 100vw);
+}
+
+.title-content1-container span {
+    color: #1F4283;
+    font-size: calc(50 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: calc(-2 / 430 * 100vw);
+}
+
+.title-content1-container h2 {
+    color: #94ACE8;
+    font-size: calc(50 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: calc(-2 / 430 * 100vw);
+}
+
+.subtitle-buttons--content1-container1 {
+    top: 344px;
+    left: calc(26 / 430 * 100vw);
+}
+
+.subtitle-content1-container {
+    color: #707C93;
+    font-family: "PP Neue Montreal";
+    font-size: calc(16 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144%;
+}
+
+.buttons-content1-container {
+    margin: 52px 0 0 0;
+    gap: calc(8 / 430 * 100vw);
+}
+
+.get-free-btn {
+    width: calc(185 / 430 * 100vw);
+    height: 57px;
+    border-radius: 9.487px;
+    background: #1F4283;
+    color: #FFF;
+    text-align: center;
+    font-size: calc(15 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.6 / 430 * 100vw);
+}
+
+.explore-software-btn{
+    width: calc(185 / 430 * 100vw);
+    height: 57px;
+    border-radius: 9.487px;
+    border-color: #1F4283;
+    background: transparent;
+    color: #1F4283;
+    text-align: center;
+    font-size: calc(15 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.6 / 430 * 100vw);
+}
+
+.box-overlap, .box-avatars, .box-overlap-2 {
+    display: none;
+}
+
+.content2-container1 {
+    display: none;
+}
 /* Container1 End */
 
 /* Home End*/

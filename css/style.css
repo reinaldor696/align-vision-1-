@@ -57,6 +57,9 @@
     background-color: var(--gray) !important;
 }
 
+.br-mobile {
+    display: none;
+}
 
 /* Your Style */
 
