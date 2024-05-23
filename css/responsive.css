@@ -559,7 +559,7 @@ header {
 }
 
 .content3-container2 {
-    margin: 33px 0 0 calc(17 / 430 * 100vw);
+    margin: 33px 0 23px calc(17 / 430 * 100vw);
 }
 
 .background-content3-container2 {
@@ -651,6 +651,121 @@ header {
     letter-spacing: calc(-0.641 / 430 * 100vw);
 }
 /* Container2 End */
+
+/* Container3 */
+.container3 {
+    height: 760px;
+    width: calc(430 / 430 * 100vw);
+}
+
+.container3-treatment-planning {
+    top: 100px;
+    left: calc(30 / 430 * 100vw);
+}
+
+.container3-text-wrapper {
+    color: #152D5A;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(32 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-1.28 / 430 * 100vw);
+}
+.container3-text-wrapper-2 {
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(32 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-1.28 / 430 * 100vw);
+}
+
+.container3-div {
+    width: calc(378 / 430 * 100vw);
+    top: 223px;
+    left: calc(26 / 430 * 100vw);
+    gap: calc(20 / 430 * 100vw);
+}
+
+.container3-img {
+    width: calc(70 / 430 * 100vw);
+    height: 69px;
+}
+
+.container3-div-2 {
+    gap: 10px;
+}
+
+.container3-upload-your-case-in {
+    color: #94ACE8;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(18 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.72 / 430 * 100vw);
+}
+
+.container3-text-wrapper-3 {
+    position: absolute;
+    left: calc(349.5 / 430 * 100vw);
+    top: 4px;
+    color: #2856AD;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(10 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: calc(-0.4 / 430 * 100vw);
+}
+
+.container3-p {
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.container3-div-3 {
+    top: 378px;
+    left: calc(26 / 430 * 100vw);
+    gap: calc(20 / 430 * 100vw);
+}
+
+.container3-receive-your {
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: calc(18 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.72 / 430 * 100vw);
+}
+
+.container3-text-wrapper-4 {
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.container3-vector {
+    display: none;
+}
+
+.container3-vector-2 {
+    display: none;
+}
+/* Container3 End */
 
 /* Home End*/
 }
