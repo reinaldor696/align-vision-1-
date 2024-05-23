@@ -486,6 +486,73 @@ header {
 .buttons-content1-container2 {
     display: none;
 }
+
+.tittle-content2-container2 {
+    margin: 112px 0 34px 0;
+    color: #152D5A;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(32 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-1.28 / 430 * 100vw);
+}
+.tittle-content2-container2 span {
+    color: var(--Brand-color-Primary, #152D5A);
+    font-family: Gordita;
+    font-size: calc(32 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-1.28 / 430 * 100vw);
+}
+
+.all-doctors-cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 23.14px;
+}
+
+.doctors-cards-container {
+    padding: 60.412px calc(39.846 / 430 * 100vw);
+    border-radius: 15px;
+    width: calc(378 / 430 * 100vw);
+    height: 332px;
+    background: linear-gradient(101deg, rgba(255, 255, 255, 0.25) 3.27%, rgba(183, 208, 255, 0.25) 27.11%, rgba(217, 230, 253, 0.25) 75.74%);
+}
+
+.img-content2-container2 img {
+    width: calc(77 / 430 * 100vw);
+    height: calc(77 / 430 * 100vw);
+    border-radius: 96px
+}
+
+.svg-doctors-card1-container svg {
+    width: calc(46.27 / 430 * 100vw);
+    height: 28.92px;
+}
+
+.span1-info-doctors-content2-container2 {
+    color: var(--Paragraph-gray, #707C93);
+    text-align: center;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(12.854 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.span2-info-doctors-content2-container2 {
+    margin-top: 14.78px;
+    color: #152D5A;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(21.851 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 /* Container2 End */
 
 /* Home End*/
