@@ -943,6 +943,7 @@ header {
     left: 0;
     width: 100%;
     text-align: center;
+    gap: 6.5px;
 }
 
 .container5-content-element {
