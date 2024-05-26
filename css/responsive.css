@@ -1262,6 +1262,90 @@ footer {
 .services-comparison {
     display: none;
 }
+
+.services-title {
+    top: 66.21px;
+    left: calc(51.55 / 430 * 100vw);
+    gap: 16.77px;
+}
+
+.services-text-wrapper-12 {
+    color: #B7C3E0;
+    font-family: Gordita;
+    font-size: calc(28.248 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.services-text-wrapper-13 {
+    color: #1F4283;
+    font-family: Gordita;
+    font-size: calc(19.42 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.services-price-and-btn {
+    top: 186.26px;
+    left: calc(49 / 430 * 100vw);
+    gap: 40.61px;
+}
+
+.services-price {
+    gap: calc(15.89 / 430 * 100vw);
+}
+
+.services-text-wrapper-14 {
+    color: #000;
+    font-family: Gordita;
+    font-size: calc(44.137 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services-text-wrapper-15 {
+    color: #707C93;
+    font-family: Gordita;
+    font-size: calc(17.655 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services-btn {
+    padding: 15.889px calc(37.958 / 430 * 100vw);
+    border-radius: 13.241px;
+    box-shadow: 0px 1.765px 30.013px 5.296px rgba(31, 66, 131, 0.17);
+    width: calc(167.92 / 430 * 100vw);
+    height: 50.78px;
+}
+
+.services-price-and-btn-2{
+    left: calc(49 / 430 * 100vw);
+    gap: 40.61px;
+}
+
+#services-btn1 {
+    padding: 15.889px calc(37.958 / 430 * 100vw);
+    border-radius: 13.241px;
+    box-shadow: 0px 1.765px 30.013px 5.296px rgba(31, 66, 131, 0.17);
+    width: calc(225.76 / 430 * 100vw);
+    height: 50.29px;
+}
+
+.services-get-started-today {
+    color: #FFF;
+    text-align: right;
+    font-family: Gordita;
+    font-size: calc(17.655 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.706 / 430 * 100vw);
+}
 /* Services End */
 }
 
