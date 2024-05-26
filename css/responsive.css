@@ -402,7 +402,7 @@ header {
     height: 263px;
     border-radius: 15px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-end;
     background: linear-gradient(101deg, #FFF 3.27%, #B7D0FF 27.11%, #D9E6FD 75.74%);
 }
