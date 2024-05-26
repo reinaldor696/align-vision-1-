@@ -60,6 +60,9 @@
 .br-mobile {
     display: none;
 }
+#br-mobile {
+    display: none;
+}
 
 /* Your Style */
 

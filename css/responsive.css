@@ -1175,6 +1175,94 @@ footer {
 /* footer End */
 
 /* Home End*/
+
+/* Services */
+.services-div {
+    height: 7000px;
+}
+
+.services-the-right-plan-for {
+    top: 86px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-text-wrapper {
+    color: #152D5A;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(50 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: calc(-2 / 430 * 100vw);
+}
+
+.services-text-wrapper-3 {
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: calc(50 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-2 / 430 * 100vw);
+}
+
+.services-starter {
+    width: calc(384 / 430 * 100vw);
+    height: 605px;
+    border-radius: 26.482px;
+    border: 0.883px solid #C1C0CE;
+    top: 286px;
+    left: calc(23 / 430 * 100vw);
+}
+
+.services-starter-2 {
+    width: calc(384 / 430 * 100vw);
+    height: 765px;
+    border-radius: 26.482px;
+    border: 0.883px solid;
+    top: 935px;
+    left: calc(23 / 430 * 100vw);
+}
+
+.services-starter-3 {
+    width: calc(384 / 430 * 100vw);
+    height: 827px;
+    border-radius: 26.482px;
+    border: 0.883px solid #C1C0CE;
+    top: 1744px;
+    left: calc(23 / 430 * 100vw);
+}
+
+.services-starter-4 {
+    width: calc(384 / 430 * 100vw);
+    height: 741px;
+    border-radius: 26.482px;
+    border: 0.883px solid #C1C0CE;
+    top: 2615px;
+    left: calc(23 / 430 * 100vw);
+}
+
+.services-button {
+    top: 3410px;
+}
+
+.services-title-2 {
+    top: 3653px;
+}
+
+.services-card {
+    display: none;
+}
+
+.services-comparison {
+    display: none;
+}
+/* Services End */
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
