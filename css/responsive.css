@@ -1178,7 +1178,7 @@ footer {
 
 /* Services */
 .services-div {
-    height: 7000px;
+    height: 6808px;
 }
 
 .services-the-right-plan-for {
@@ -1396,6 +1396,104 @@ footer {
     left: calc(49 / 430 * 100vw);
     gap: 40.61px;
     top: 192.98px;
+}
+
+.compare-all-plans-text {
+    position: absolute;
+    top: 3912px;
+    left: calc(25 / 430 * 100vw);
+    color: #1F4283;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(25 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: calc(-0.5 / 430 * 100vw);
+}
+
+.services-comparison-mquery {
+    position: absolute;
+    top: 3982px;
+    left: calc(25 / 430 * 100vw);
+}
+
+.comparison-mquery-comparison {
+    display: flex;
+    flex-direction: column;
+    width: calc(370 / 430 * 100vw);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.comparison-mquery-text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--paragraph-gray);
+    font-size: calc(16 / 430 * 100vw);
+    letter-spacing: calc(-0.32 / 430 * 100vw);
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.comparison-mquery-row {
+    display: flex;
+    gap: calc(82 / 430 * 100vw);
+    align-self: stretch;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.comparison-mquery-starter {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.comparison-mquery-check {
+    position: relative;
+    width: calc(30.47 / 430 * 100vw);
+    height: calc(30.47 / 430 * 100vw);
+}
+
+.comparison-mquery-div {
+    position: relative;
+    width: fit-content;
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--alternative-blue);
+    font-size: calc(16 / 430 * 100vw);
+    letter-spacing: calc(-0.32 / 430 * 100vw);
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.comparison-mquery-div-2 {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.line-comparison-mquery-comparison {
+    width: calc(378 / 430 * 100vw);
+    height: 0.869px;
+    background-color: #D6D4EB;
+    margin: 48px 0;
 }
 
 #services-btn1 {
