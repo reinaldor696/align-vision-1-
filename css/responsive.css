@@ -1588,6 +1588,65 @@ footer {
     letter-spacing: calc(-0.847 / 430 * 100vw);
 }
 /* Services End */
+
+/* Our blog End */
+.our-blog-cta {
+    width: calc(380 / 430 * 100vw);
+    height: 227px;
+    background-image: url('../media/icons/content-home/cta-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 53px;
+    left: calc(24 / 430 * 100vw);
+    border-radius: 16.022px;
+}
+
+.our-blog-overlap {
+    display: none;
+}
+
+.our-blog-frame {
+    top: 322px;
+    left: calc(24 / 430 * 100vw);
+    gap: calc(8.72 / 430 * 100vw);
+}
+
+.our-blog-tab {
+    padding: 12.202px calc(19.174 / 430 * 100vw);
+    width: calc(98.35 / 430 * 100vw);
+    height: 41.4px;
+    border-radius: 13.07px;
+}
+
+.our-blog-text-wrapper-4 {
+    color: #1F4283;
+    text-align: right;
+    font-family: Gordita;
+    font-size: calc(15.688 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.628 / 430 * 100vw);
+}
+
+.our-blog-tab-2 {
+    padding: 12.202px calc(19.174 / 430 * 100vw);
+    width: calc(134.45 / 430 * 100vw);
+    height: 41.4px;
+    border-radius: 13.07px;
+}
+
+.our-blog-text-wrapper-5 {
+    color: #707C93;
+    text-align: right;
+    font-family: Gordita;
+    font-size: calc(15.688 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-0.628 / 430 * 100vw);
+}
+/* Our blog End */
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
