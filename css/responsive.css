@@ -1395,6 +1395,7 @@ footer {
 .services-price-and-btn-2{
     left: calc(49 / 430 * 100vw);
     gap: 40.61px;
+    top: 192.98px;
 }
 
 #services-btn1 {
