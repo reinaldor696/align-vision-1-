@@ -1744,6 +1744,79 @@ footer {
     letter-spacing: calc(-0.54 / 430 * 100vw);
 }
 /* Our blog End */
+
+/* Blog single page */
+.blog-single-overlap {
+    top: 52px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    height: 280px;
+    object-fit: contain;
+    background-image: url('../media/icons/content-home/daniel-frank-wKbWAMlHgNo-unsplash\ 1.png');
+}
+
+.blog-single-text-wrapper-4 {
+    top: 179px;
+    left: calc(12 / 430 * 100vw);
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(24 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: auto;
+}
+
+.blog-single-vector {
+    top: 168px;
+    left: calc(13 / 430 * 100vw);
+    width: calc(353 / 430 * 100vw);
+    height: 0.5px;
+    background-color: #FFF;
+}
+
+.blog-single-chip-2 {
+    top: 248.25px;
+    left: calc(13 / 430 * 100vw);
+    gap: calc(9.04 / 430 * 100vw);
+}
+
+.blog-single-date {
+    padding: 4.109px calc(4.931 / 430 * 100vw);
+    width: calc(64.86 / 430 * 100vw);
+    height: 18.22px;
+    border-radius: 41.09px;
+}
+
+.blog-single-text-wrapper-5 {
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(9.474 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-single-author {
+    top: 244px;
+    left: calc(252.89 / 430 * 100vw);
+    gap: calc(7.4 / 430 * 100vw);
+}
+
+.blog-single-image {
+    width: calc(26.71 / 430 * 100vw);
+    height: calc(26.71 / 430 * 100vw);
+}
+
+.blog-single-dr-amet-ariat {
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(11.843 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* Blog single page End */
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
