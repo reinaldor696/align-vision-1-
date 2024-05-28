@@ -8,26 +8,51 @@ const servicesImg2 = document.querySelector('.services-img-2');
 const servicesSvg2 = document.querySelector('.services-svg-2');
 const viewTextServices = document.querySelector('.view-text-services');
 const closeTextServices = document.querySelector('.close-text-services');
+const compareAllPlansText = document.querySelector('.compare-all-plans-text');
+const servicesComparisonMquery = document.querySelector('.services-comparison-mquery');
 
 function closePlanComparation() {
-    if(servicesTitle2.style.display === 'flex') {
-        servicesSvg2.style.display = 'block';
-        viewTextServices.style.display = 'flex';
-        closeTextServices.style.display = 'none';
-        servicesImg2.style.display = 'none';
-        servicesTitle2.style.display = 'none';
-        servicesCard.style.display = 'none';
-        servicesComparison.style.display = 'none';
-        servicesDiv.style.height = 'calc(1802 / 1080 * 100vh)';
+    
+    if (window.matchMedia("(min-width: 480px)").matches) {
+        if(servicesTitle2.style.display === 'flex') {
+            servicesSvg2.style.display = 'block';
+            viewTextServices.style.display = 'flex';
+            closeTextServices.style.display = 'none';
+            servicesImg2.style.display = 'none';
+            servicesTitle2.style.display = 'none';
+            servicesCard.style.display = 'none';
+            servicesComparison.style.display = 'none';
+            servicesDiv.style.height = 'calc(1802 / 1080 * 100vh)';
+        } else {
+            viewTextServices.style.display = 'none';
+            servicesSvg2.style.display = 'none';
+            closeTextServices.style.display = 'flex';
+            servicesImg2.style.display = 'block';
+            servicesTitle2.style.display = 'flex';
+            servicesCard.style.display = 'flex';
+            servicesComparison.style.display = 'block';
+            servicesDiv.style.height = 'calc(4150 / 1080 * 100vh)';
+        }
     } else {
-        viewTextServices.style.display = 'none';
-        servicesSvg2.style.display = 'none';
-        closeTextServices.style.display = 'flex';
-        servicesImg2.style.display = 'block';
-        servicesTitle2.style.display = 'flex';
-        servicesCard.style.display = 'flex';
-        servicesComparison.style.display = 'block';
-        servicesDiv.style.height = 'calc(4150 / 1080 * 100vh)';
+        if(servicesTitle2.style.display === 'flex') {
+            viewTextServices.style.display = 'flex';
+            servicesSvg2.style.display = 'block';
+            servicesImg2.style.display = 'none';
+            servicesTitle2.style.display = 'none';
+            compareAllPlansText.style.display = 'none';
+            servicesComparisonMquery.style.display = 'none';
+            closeTextServices.style.display = 'none';
+            servicesDiv.style.height = '3539px';
+        } else {
+            closeTextServices.style.display = 'flex';
+            servicesTitle2.style.display = 'flex';
+            compareAllPlansText.style.display = 'block';
+            servicesComparisonMquery.style.display = 'block';
+            servicesImg2.style.display = 'block';
+            servicesSvg2.style.display = 'none';
+            viewTextServices.style.display = 'none';
+            servicesDiv.style.height = '6808px';
+        }
     }
 }
 /* section services end */
