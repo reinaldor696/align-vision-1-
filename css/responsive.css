@@ -1816,6 +1816,184 @@ footer {
     font-weight: 500;
     line-height: normal;
 }
+
+.blog-single-text-wrapper-12 {
+    display: none;
+}
+
+.blog-single-clear-aligners-and {
+    top: 368px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.blog-single-text-wrapper-27 {
+    top: 613px;
+    left: calc(24 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(24 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.blog-single-here-is-a-quick {
+    top: 689px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.blog-single-text-wrapper-13 {
+    top: 1414px;
+    left: calc(24 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(24 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.blog-single-people-are {
+    top: 1490px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.blog-single-text-wrapper-14 {
+    top: 1775px;
+    left: calc(24 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(24 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.blog-single-text-wrapper-22 {
+    top: 1851px;
+    left: calc(24 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(20 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.blog-single-brackets-brackets {
+    top: 1915px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.blog-single-text-wrapper-23 {
+    top: 2395px;
+    left: calc(24 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(20 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.blog-single-pressure-and-tension {
+    top: 2459px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.blog-single-challenges {
+    top: 2845px;
+    left: calc(24 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(24 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.blog-single-physical-discomfort {
+    top: 2909px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    line-height: normal;
+}
+
+.blog-single-span {
+    color: #152D5A;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(18 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px
+}
+
+.blog-single-text-wrapper-10 {
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.blog-single-text-wrapper-24 {
+    top: 3615px;
+    left: calc(24 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(24 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.blog-single-a-modern-alternative {
+    top: 3691px;
+    left: calc(24 / 430* 100vw);
+    width: calc(378 / 430* 100vw);
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
 /* Blog single page End */
 }
 
