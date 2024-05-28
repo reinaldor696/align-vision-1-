@@ -1589,7 +1589,11 @@ footer {
 }
 /* Services End */
 
-/* Our blog End */
+/* Our blog */
+.our-blog-div {
+    height: 2058px;
+}
+
 .our-blog-cta {
     width: calc(380 / 430 * 100vw);
     height: 227px;
@@ -1645,6 +1649,99 @@ footer {
     font-weight: 400;
     line-height: normal;
     letter-spacing: calc(-0.628 / 430 * 100vw);
+}
+
+.our-blog-row {
+    display: flex;
+    flex-direction: column;
+    top: 405px;
+    left: calc(20 / 430 * 100vw);
+    gap: 25.65px;
+}
+
+.our-blog-post-card {
+    padding: 13.502px calc(13.502 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    height: 507.26px;
+    border-radius: 12.15px;
+    gap: 29.03px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.our-blog-rectangle {
+    width: calc(359.165 / 430 * 100vw);
+    height: 238.993px;
+    border-radius: 20.254px;
+}
+
+.our-blog-content-2 {
+    padding: 0;
+    gap: 16.2px;
+}
+
+.our-blog-text-wrapper-6 {
+    color: #1F4283;
+    font-family: Gordita;
+    font-size: calc(16.203 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: calc(345 / 430 * 100vw);
+}
+
+.our-blog-the-benefits-of {
+    color: #1F4283;
+    font-family: Gordita;
+    font-size: calc(16.203 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: auto;
+}
+
+.our-blog-div-wrapper {
+    width: calc(77.5 / 430 * 100vw);
+    height: 25.5px;
+    border-radius: 4.05px;
+}
+
+.our-blog-text-wrapper {
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: calc(10.802 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.our-blog-text-wrapper-2 {
+    color: #707C93;
+    font-family: "PP Neue Montreal";
+    font-size: calc(12.152 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: calc(344.987 / 430 * 100vw);
+}
+
+.our-blog-button {
+    padding: 12.152px calc(29.03 / 430 * 100vw);
+    width: calc(345 / 430 * 100vw);
+    height: 39.3px;
+    border-radius: 10.13px;
+}
+
+.our-blog-get-started-today {
+    color: #FFF;
+    text-align: right;
+    font-family: Gordita;
+    font-size: calc(13.502 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.54 / 430 * 100vw);
 }
 /* Our blog End */
 }

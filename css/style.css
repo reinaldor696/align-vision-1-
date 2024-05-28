@@ -3023,6 +3023,7 @@ header {
     overflow: hidden;
     background-image: url(../media/icons/content-home/cta.png);
     background-size: cover;
+    background-position: center;
 }
 
 .our-blog-overlap-group {
