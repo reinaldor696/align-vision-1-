@@ -377,3 +377,32 @@ function caseStudies() {
 }
 caseStudies();
 /* section case studies End */
+
+/* section menu mquery */
+const menuMquery = document.querySelector('.menu-mquery-container');
+const caseStudiesBlogMenuMquery = document.querySelector('.case-studies-blog-menu-mquery');
+const resourceMenuMquerySvg = document.querySelector('.resource-menu-mquery svg');
+
+function openMenuMquery() {
+    menuMquery.style.display = 'block';
+}
+
+function closeMenuMquery() {
+    menuMquery.style.display = 'none';
+
+    if(caseStudiesBlogMenuMquery.style.display === 'block') {
+        caseStudiesBlogMenuMquery.style.display = 'none';
+        resourceMenuMquerySvg.style.transform = 'rotate(0deg)';
+    }
+}
+
+function resourceOptions() {
+    if(caseStudiesBlogMenuMquery.style.display === 'flex') {
+        caseStudiesBlogMenuMquery.style.display = 'none';
+        resourceMenuMquerySvg.style.transform = 'rotate(0deg)';
+    } else {
+        caseStudiesBlogMenuMquery.style.display = 'flex';
+        resourceMenuMquerySvg.style.transform = 'rotate(180deg)';
+    }
+}
+/* section menu mquery End */

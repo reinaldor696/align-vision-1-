@@ -63,7 +63,9 @@
 #br-mobile {
     display: none;
 }
-
+.menu-mquery-container {
+    display: none;
+}
 /* Your Style */
 
 /* Header */

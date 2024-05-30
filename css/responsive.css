@@ -78,6 +78,172 @@ header {
     right: calc(12 / 430 * 100vw);
     cursor: pointer;
 }
+
+.menu-mquery-container {
+    display: none;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../media/icons/content-home/Mask\ group-mquery.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar-menu-mquery {
+    position: relative;
+    top: calc(33 / 932 * 100vh);
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    height: calc(60 / 932 * 100vh);
+    border-radius: 10px;
+    background: rgba(242, 243, 254, 0.10);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar-menu-mquery svg {
+    position: relative;
+    top: 0;
+    left: calc(13 / 430 * 100vw);
+    width: calc(117 / 430 * 100vw);
+    height: calc(25 / 932 * 100vh);
+}
+
+.nav-bar-menu-mquery img {
+    position: absolute;
+    width: calc(30 / 430 * 100vw);
+    height: calc(60 / 932 * 100vh);
+    top: 0;
+    right: calc(11.86 / 430 * 100vw);
+    cursor: pointer;
+}
+
+.menu-content-mquery {
+    position: absolute;
+    top: calc(254 / 932 * 100vh);
+    left: calc(43 / 430 * 100vw);
+}
+
+.list-menu-content-mquery {
+    display: flex;
+    flex-direction: column;
+    gap: calc(20 / 932 * 100vh);
+}
+
+.list-menu-content-mquery li {
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(32 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.resource-menu-mquery {
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-menu-mquery-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: calc(5 / 430 * 100vw);
+}
+
+.resource-menu-mquery svg {
+    position: relative;
+    top: calc(2 / 932 * 100vh);
+    width: calc(24 / 430 * 100vw);
+    height: calc(25 / 932 * 100vh);
+}
+
+.btn-login-menu-mquery {
+    position: absolute;
+    top: calc(389 / 932 * 100vh);
+    left: calc(55 / 430 * 100vw);
+    gap: calc(7.75 / 430 * 100vw);
+    width: calc(224 / 430 * 100vw);
+    height: calc(55 / 932 * 100vh);
+    display: flex;
+    flex-direction: row;
+    padding: calc(13.944 / 932 * 100vh) calc(33.311 / 430 * 100vw);
+    border: none;
+    cursor: pointer;
+    border-radius: 11.62px;
+    background: #FFF;
+}
+
+.btn-login-menu-mquery svg {
+    width: calc(26.339 / 430 * 100vw);
+    height: calc(26.339 / 932 * 100vh);
+}
+
+.btn-login-menu-mquery p {
+    color: #1F4283;
+    font-family: Gordita;
+    font-size: calc(19.367 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.775 / 430 * 100vw);
+}
+
+.social-media-menu-mquery {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(525 / 932 * 100vh);
+    left: calc(85 / 430 * 100vw);
+    gap: calc(18.83 / 932 * 100vh);
+}
+
+.social-media-menu-mquery h3 {
+    color: #FFF;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(16 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+}
+
+.logo-social-media-mquery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: calc(6.07 / 430 * 100vw);
+}
+
+.logo-social-media-mquery img {
+    width: calc(35.222 / 430 * 100vw);
+    height: calc(35.222 / 430 * 100vw);
+    cursor: pointer;
+}
+
+.case-studies-blog-menu-mquery {
+    position: relative;
+    top: calc(10 / 932 * 100vh);
+    left: calc(19 / 430 * 100vw);
+    display: none;
+    flex-direction: column;
+    gap: calc(14 / 932 * 100vh);
+}
+
+.case-studies-blog-menu-mquery p {
+    color: #BABABA;
+    font-family: Gordita;
+    font-size: calc(24 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-0.96 / 430 * 100vw);
+    cursor: pointer;
+}
 /* Header End*/
 
 /* Container1 */
@@ -2310,20 +2476,20 @@ footer {
 
 /* Contact us */
 .contact-us-div {
-    height: 873px;
+    height: calc(873 / 932 * 100vh);
 }
 
 .contact-us-content {
     top: 53px;
     left: calc(24 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
-    height: 732px;
+    height: calc(732 / 932 * 100vh);
     border-radius: 13.508px;
 }
 
 .contact-us-let-s-get-in-touch {
-    position: relative;
-    top: 327px;
+    position: absolute;
+    top: calc(460 / 932 * 100vh);
     width: auto;
     left: calc(47 / 430 * 100vw);
     color: #FFF;
@@ -2334,13 +2500,12 @@ footer {
     line-height: 111%;
     display: flex;
     flex-direction: column;
-    padding-top: 66.64px;
+    
 }
 
 .contact-us-p {
-    padding-top: 18.4px;
     position: relative;
-    top: 330px;
+    top: calc(630 / 932 * 100vh);
     left: calc(47 / 430 * 100vw);
     color: #FFF;
     font-family: var(--paragraph-24px-book-font-family);
@@ -2352,22 +2517,21 @@ footer {
 }
 
 .contact-us-fields {
-    padding-top: 55px;
-    top: 628px;
+    top: calc(730 / 932 * 100vh);
     left: calc(47 / 430 * 100vw);
-    gap: 23.92px;
+    gap: calc(23.92 / 932 * 100vh);
 }
 
 .contact-us-overlap {
-    height: 732px;
+    height: calc(732 / 932 * 100vh);
 }
 
 .contact-us-rectangle {
-    height: 732px;
+    height: calc(732 / 932 * 100vh);
 }
 
 .contact-us-field {
-    gap: 9.006px;
+    gap: calc(9 / 932 * 100vh);
 }
 
 .contact-us-text-wrapper-2 {
@@ -2381,17 +2545,17 @@ footer {
 }
 
 .contact-us-input {
-    height: 32.42px;
+    height: calc(32.42 / 932 * 100vh);
     width: calc(300 / 430 * 100vw);
     border-radius: 6.754px;
 }
 
 .contact-us-field-3 {
-    gap: 9px;
+    gap: calc(9 / 932 * 100vh);
 }
 
 .contact-us-field-4 {
-    height: 104px;
+    height: calc(104 / 932 * 100vh);
     width: calc(300 / 430 * 100vw);
     border-radius: 6.754px;
 }
@@ -2399,8 +2563,8 @@ footer {
 .contact-us-btn {
     margin-left: calc(13 / 430 * 100vw);
     width: calc(275 / 430 * 100vw);
-    height: 39.3px;
-    padding: 12.152px calc(29.03 / 430 * 100vw);
+    height: calc(39.3 / 932 * 100vh);
+    padding: calc(12.152 / 932 * 100vh) calc(29.03 / 430 * 100vw);
     border-radius: 10.127px;
     box-shadow: 0px calc(1.35 / 430 * 100vw) 22.954px calc(4.051 / 430 * 100vw) rgba(31, 66, 131, 0.17);
 }
@@ -2417,7 +2581,7 @@ footer {
 }
 
 .contact-us-fields-2 {
-    gap: 17.11px;
+    gap: calc(17.11 / 932 * 100vh);
 }
 /* Contact us End */
 
