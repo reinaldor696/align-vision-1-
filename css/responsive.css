@@ -2422,6 +2422,10 @@ footer {
 /* Contact us End */
 
 /* About us */
+.about-us-div {
+    height: 3430px;
+}
+
 .about-us-hero-about-us {
     top: 53px;
     left: calc(28 / 430 * 100vw);
@@ -2497,6 +2501,251 @@ footer {
     width: calc(345 / 430 * 100vw);
     height: 438px;
     border-radius: 15px;
+}
+
+.about-us-ortodoncista {
+    top: 50px;
+    left: calc(30 / 430 * 100vw);
+    width: max-content;
+    height: 360px;
+    border-radius: 30px 0 0 30px;
+    object-fit: cover;
+}
+
+.about-us-the-challengue-we {
+    top: 453px;
+    left: calc(26 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(36 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-1.44 / 430 * 100vw);
+    width: auto;
+}
+
+.about-us-overlap {
+    top: 1376px;
+    height: 625px;
+}
+
+.about-us-span {
+    display: none;
+}
+
+.about-us-text-wrapper-2 {
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(36 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: calc(-1.44 / 430 * 100vw);
+}
+
+.about-us-text-wrapper-3 {
+    top: 503px;
+    left: calc(26 / 430 * 100vw);
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: calc(20 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+}
+
+.about-us-faced-with-the {
+    top: 552px;
+    left: calc(26 / 430 * 100vw);
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(17 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    width: auto;
+}
+
+.about-us-frame-2 {
+    height: 645px;
+}
+
+.about-us-frame-3 {
+    top: 643px;
+    height: 475px;
+}
+
+.about-us-value-icons {
+    width: calc(56.233 / 430 * 100vw);
+    height: calc(56.233 / 430 * 100vw);
+    top: 103px;
+    left: calc(187 / 430 * 100vw);
+}
+
+.about-us-text-wrapper-5 {
+    top: 172.4px;
+    left: calc(146 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(28 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    letter-spacing: calc(-1.12 / 430 * 100vw);
+}
+
+.about-us-text-wrapper-4 {
+    top: 202.87px;
+    left: calc(112 / 430 * 100vw);
+    color: var(--Brand-color-Primary, #152D5A);
+    font-family: Gordita;
+    font-size: calc(42 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+    letter-spacing: calc(-1.68 / 430 * 100vw);
+}
+
+.about-us-img {
+    top: 261.2px;
+    left: calc(215 / 430 * 100vw);
+    height: 28px;
+    width: calc(0.933 / 430 * 100vw);
+}
+
+.about-us-overlap-group {
+    top: 304.6px;
+    left: calc(90 / 430 * 100vw);
+    width: calc(252 / 430 * 100vw);
+}
+
+.about-us-the-alignvision {
+    top: 0;
+    left: 0;
+    color: #94ACE8;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(20 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+}
+
+.about-us-experience-reduced {
+    top: 59.73px;
+    left: calc(-39 / 430 * 100vw);
+    color: #707C93;
+    text-align: center;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(18 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    width: calc(340 / 430 * 100vw);
+}
+
+.about-us-vision {
+    top: 2600px;
+    height: 750px;
+}
+
+.about-us-overlap-2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.about-us-fondo-bokeh-azul {
+    width: calc(378 / 430 * 100vw);
+    height: 724px;
+    border-radius: 21.346px;
+    left: calc(26 / 430 * 100vw);
+}
+
+.about-us-solid-blue-bg {
+    width: calc(378 / 430 * 100vw);
+    height: 724px;
+    border-radius: 21.346px;
+    left: calc(26 / 430 * 100vw);
+}
+
+.about-us-pattern-icon-2 {
+    width: calc(66.715 / 430 * 100vw);
+    height: 66.715px;
+}
+
+.about-us-join-our-community {
+    top: 57px;
+    left: calc(56 / 430 * 100vw);
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(50 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: calc(-2 / 430 * 100vw);
+}
+
+.about-us-text-wrapper-2-2-2 {
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(50 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: calc(-2 / 430 * 100vw);
+}
+
+.about-us-text-wrapper-6 {
+    top: 175px;
+    left: calc(56 / 430 * 100vw);
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: calc(22 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126%;
+}
+
+.about-us-be-part-of-the {
+    top: 215px;
+    left: calc(56 / 430 * 100vw);
+    color: #FFF;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(16 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    width: calc(340 / 430 * 100vw);
+}
+
+.about-us-btn {
+    top: 315px;
+    left: calc(59 / 430 * 100vw);
+    padding: 10.978px calc(26.225 / 430 * 100vw);
+    border-radius: 9.148px;
+    width: calc(158.45 / 430 * 100vw);
+    height: 35px;
+}
+
+.about-us-get-started-today {
+    color: #152D5A;
+    text-align: right;
+    font-family: Gordita;
+    font-size: calc(12.198 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.488 / 430 * 100vw);
+}
+
+.about-us-filip-rankovic {
+    top: 390px;
+    left: calc(57 / 430 * 100vw);
+    border-radius: 18.297px;
+    width: calc(316 / 430 * 100vw);
+    height: 301px;
 }
 /* About us End */
 }

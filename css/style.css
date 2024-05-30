@@ -4454,6 +4454,12 @@ header {
     letter-spacing: calc(-5.76 / 1920 * 100vw);
 }
 
+.about-us-text-wrapper-2-2-2 {
+    font-family: "Gordita-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: calc(-5.76 / 1920 * 100vw);
+}
+
 .about-us-ortodoncista {
     position: absolute;
     width: calc(832 / 1920 * 100vw);
