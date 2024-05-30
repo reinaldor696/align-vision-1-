@@ -2307,6 +2307,119 @@ footer {
     width: auto;
 }
 /* Blog single page End */
+
+/* Contact us */
+.contact-us-div {
+    height: 873px;
+}
+
+.contact-us-content {
+    top: 53px;
+    left: calc(24 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    height: 732px;
+    border-radius: 13.508px;
+}
+
+.contact-us-let-s-get-in-touch {
+    position: relative;
+    top: 327px;
+    width: auto;
+    left: calc(47 / 430 * 100vw);
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(67.541 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 111%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 66.64px;
+}
+
+.contact-us-p {
+    padding-top: 18.4px;
+    position: relative;
+    top: 330px;
+    left: calc(47 / 430 * 100vw);
+    color: #FFF;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(16 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    width: auto;
+}
+
+.contact-us-fields {
+    padding-top: 55px;
+    top: 628px;
+    left: calc(47 / 430 * 100vw);
+    gap: 23.92px;
+}
+
+.contact-us-overlap {
+    height: 732px;
+}
+
+.contact-us-rectangle {
+    height: 732px;
+}
+
+.contact-us-field {
+    gap: 9.006px;
+}
+
+.contact-us-text-wrapper-2 {
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(14 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.56 / 430 * 100vw);
+}
+
+.contact-us-input {
+    height: 32.42px;
+    width: calc(300 / 430 * 100vw);
+    border-radius: 6.754px;
+}
+
+.contact-us-field-3 {
+    gap: 9px;
+}
+
+.contact-us-field-4 {
+    height: 104px;
+    width: calc(300 / 430 * 100vw);
+    border-radius: 6.754px;
+}
+
+.contact-us-btn {
+    margin-left: calc(13 / 430 * 100vw);
+    width: calc(275 / 430 * 100vw);
+    height: 39.3px;
+    padding: 12.152px calc(29.03 / 430 * 100vw);
+    border-radius: 10.127px;
+    box-shadow: 0px calc(1.35 / 430 * 100vw) 22.954px calc(4.051 / 430 * 100vw) rgba(31, 66, 131, 0.17);
+}
+
+.contact-us-get-started-today {
+    color: #1F4283;
+    text-align: right;
+    font-family: Gordita;
+    font-size: calc(13.502 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.54 / 430 * 100vw);
+}
+
+.contact-us-fields-2 {
+    gap: 17.11px;
+}
+/* Contact us End */
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
