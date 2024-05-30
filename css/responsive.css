@@ -2509,7 +2509,7 @@ footer {
     width: max-content;
     height: 360px;
     border-radius: 30px 0 0 30px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .about-us-the-challengue-we {
