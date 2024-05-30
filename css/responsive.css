@@ -2420,6 +2420,85 @@ footer {
     gap: 17.11px;
 }
 /* Contact us End */
+
+/* About us */
+.about-us-hero-about-us {
+    top: 53px;
+    left: calc(28 / 430 * 100vw);
+    width: calc(373 / 430 * 100vw);
+    height: 537px;
+    border-radius: 15px;
+    box-shadow: 0px calc(0.862 / 430 * 100vw) 5.391px calc(1.294 / 430 * 100vw) rgba(31, 66, 131, 0.25);
+}
+
+.about-us-content {
+    width: calc(373 / 430 * 100vw);
+    height: 537px;
+    border-radius: 15px;
+}
+
+.about-us-vector {
+    top: 201px;
+    left: calc(145 / 430 * 100vw);
+    width: calc(81.892 / 430 * 100vw);
+    height: 100.61px;
+}
+
+.about-us-frame {
+    top: 626px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    height: 748px;
+    border-radius: 15px;
+}
+
+.about-us-pattern-icon {
+    display: none;
+}
+
+.about-us-dr-amer-ariat {
+    top: 475px;
+    left: calc(15 / 430 * 100vw);
+    color: #152D5A;
+    font-family: Gordita;
+    font-size: calc(40 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: auto;
+}
+
+.about-us-founder-CEO-of {
+    top: 552px;
+    left: calc(15 / 430 * 100vw);
+    color: #94ACE8;
+    font-family: Gordita;
+    font-size: calc(20 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.about-us-driven-by-a-dentist {
+    top: 569px;
+    left: calc(15 / 430 * 100vw);
+    color: #707C93;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(18 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    width: auto;
+}
+
+.about-us-element-copy {
+    top: 17px;
+    left: calc(17 / 430 * 100vw);
+    width: calc(345 / 430 * 100vw);
+    height: 438px;
+    border-radius: 15px;
+}
+/* About us End */
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/
