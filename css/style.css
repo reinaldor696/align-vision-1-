@@ -5018,6 +5018,10 @@ header {
     font-style: var(--paragraph-32-px-book-font-style);
 }
 
+.title-treatment-plan-mquery-case {
+    display: none;
+}
+
 .case-studies-frame {
     position: relative;
     width: calc(1405 / 1920 * 100vw);

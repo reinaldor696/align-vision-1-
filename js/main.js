@@ -375,7 +375,18 @@ function caseStudies() {
             opacity: 1,
             duration: 1,
         }, '-=0.8');
-    }
+    } /*else {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.scroll-case-studies',
+                start: '1 0',
+                end: '2300 0',
+                pin: true,
+                scrub: true,
+                markers: true,
+            }
+        });
+    }*/
 }
 caseStudies();
 /* section case studies End */
