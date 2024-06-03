@@ -381,7 +381,6 @@ function caseStudies() {
                 trigger: '.scroll-case-studies',
                 start: 'top 0',
                 end: 'bottom 0',
-                markers: true,
             }
         });
 
