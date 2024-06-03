@@ -5492,6 +5492,9 @@ header {
     border-radius: 6px;
 }
 
+.btn-mquery-case-studies-img {
+    display: none;
+}
 /* Case studies End */
 
 /* Footer */

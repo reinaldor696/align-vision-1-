@@ -3162,6 +3162,31 @@ footer {
     width: calc(12 / 430 * 100vw);
     height: calc(12 / 430 * 100vw);
 }
+
+.btn-mquery-case-studies-img {
+    display: none;
+    position: absolute;
+    top: 181px;
+    left: calc(165 / 430 * 100vw);
+    gap: calc(5.025 / 430 * 100vw);
+    z-index: 5;
+}
+
+.btn-mquery-case-studies-img button {
+    width: calc(50 / 430 * 100vw);
+    height: 50px;
+    fill: rgba(255, 255, 255, 0.10);
+    border: 1px solid #FFF;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    border-radius: 12.5px;
+    cursor: pointer;
+}
+
+.btn-mquery-case-studies-img svg {
+    width: calc(10 / 430 * 100vw);
+    height: 18px;
+}
 /* Case studies End */
 }
 
