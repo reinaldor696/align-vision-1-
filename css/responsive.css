@@ -93,7 +93,7 @@ header {
 
 .nav-bar-menu-mquery {
     position: relative;
-    top: calc(33 / 932 * 100vh);
+    top: 36px;
     left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     height: calc(60 / 932 * 100vh);
@@ -2476,20 +2476,21 @@ footer {
 
 /* Contact us */
 .contact-us-div {
-    height: calc(873 / 932 * 100vh);
+    height: 873px;
 }
 
 .contact-us-content {
+    position: relative;
     top: 53px;
     left: calc(24 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
-    height: calc(732 / 932 * 100vh);
+    height: 732px;
     border-radius: 13.508px;
 }
 
 .contact-us-let-s-get-in-touch {
     position: absolute;
-    top: calc(460 / 932 * 100vh);
+    top: 66.64px;
     width: auto;
     left: calc(47 / 430 * 100vw);
     color: #FFF;
@@ -2505,7 +2506,7 @@ footer {
 
 .contact-us-p {
     position: relative;
-    top: calc(630 / 932 * 100vh);
+    top: 235.04px;
     left: calc(47 / 430 * 100vw);
     color: #FFF;
     font-family: var(--paragraph-24px-book-font-family);
@@ -2517,21 +2518,25 @@ footer {
 }
 
 .contact-us-fields {
-    top: calc(730 / 932 * 100vh);
+    top: 331px;
     left: calc(47 / 430 * 100vw);
-    gap: calc(23.92 / 932 * 100vh);
+    gap: 23.92px;
 }
 
 .contact-us-overlap {
-    height: calc(732 / 932 * 100vh);
+    height: 732px;
+    top: 0;
 }
 
 .contact-us-rectangle {
-    height: calc(732 / 932 * 100vh);
+    height: 732px;
+    width: calc(378 / 430* 100vw);
+    top: 0;
+    border-radius: 13.508px;
 }
 
 .contact-us-field {
-    gap: calc(9 / 932 * 100vh);
+    gap: 9px;
 }
 
 .contact-us-text-wrapper-2 {
@@ -2545,17 +2550,17 @@ footer {
 }
 
 .contact-us-input {
-    height: calc(32.42 / 932 * 100vh);
+    height: 32.42px;
     width: calc(300 / 430 * 100vw);
     border-radius: 6.754px;
 }
 
 .contact-us-field-3 {
-    gap: calc(9 / 932 * 100vh);
+    gap: 9px;
 }
 
 .contact-us-field-4 {
-    height: calc(104 / 932 * 100vh);
+    height: 104px;
     width: calc(300 / 430 * 100vw);
     border-radius: 6.754px;
 }
@@ -2563,8 +2568,8 @@ footer {
 .contact-us-btn {
     margin-left: calc(13 / 430 * 100vw);
     width: calc(275 / 430 * 100vw);
-    height: calc(39.3 / 932 * 100vh);
-    padding: calc(12.152 / 932 * 100vh) calc(29.03 / 430 * 100vw);
+    height: 39.3px;
+    padding: calc12.152px calc(29.03 / 430 * 100vw);
     border-radius: 10.127px;
     box-shadow: 0px calc(1.35 / 430 * 100vw) 22.954px calc(4.051 / 430 * 100vw) rgba(31, 66, 131, 0.17);
 }
@@ -2581,7 +2586,7 @@ footer {
 }
 
 .contact-us-fields-2 {
-    gap: calc(17.11 / 932 * 100vh);
+    gap: 17px;
 }
 /* Contact us End */
 
