@@ -2958,7 +2958,7 @@ footer {
 }
 
 .case-studies-frame {
-    width: 100%;
+    width: auto;
     left: 0;
     top: 350px;
 }
@@ -2971,6 +2971,7 @@ footer {
     border-radius: 13.951px;
     object-fit: contain;
     background-image: url('../media/icons/content-home/DSC_3163-2\ 1\(23\).png');
+    background-repeat: no-repeat;
 }
 
 .case-studies-time {
@@ -2995,24 +2996,26 @@ footer {
 
 .case-studies-bar-case-studies {
     position: absolute;
-    top:0;
-    display: none;
+    top: 0;
+    display: flex;
     flex-direction: row;
     width: auto;
     height: auto;
+    opacity: 0;
 }
 
 .title-treatment-plan-mquery-case {
     position: absolute;
-    top: 105px;
+    top: 395px;
     left: calc(87 / 430 * 100vw);
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: calc(256 / 430 * 100vw);
     padding: 21.396px calc(17.651 / 430 * 100vw) 17.651px;
     gap: 20.06px;
+    opacity: 0;
 }
 .title-treatment-plan-mquery-case h3 {
     color: #1F4283;
@@ -3166,8 +3169,8 @@ footer {
 .btn-mquery-case-studies-img {
     display: none;
     position: absolute;
-    top: 181px;
-    left: calc(165 / 430 * 100vw);
+    top: 240px;
+    left: calc(135 / 430 * 100vw);
     gap: calc(5.025 / 430 * 100vw);
     z-index: 5;
 }
