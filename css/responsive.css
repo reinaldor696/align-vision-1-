@@ -96,7 +96,7 @@ header {
     top: 36px;
     left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
-    height: calc(60 / 932 * 100vh);
+    height: 60px;
     border-radius: 10px;
     background: rgba(242, 243, 254, 0.10);
     display: flex;
@@ -109,13 +109,13 @@ header {
     top: 0;
     left: calc(13 / 430 * 100vw);
     width: calc(117 / 430 * 100vw);
-    height: calc(25 / 932 * 100vh);
+    height: 25px;
 }
 
 .nav-bar-menu-mquery img {
     position: absolute;
     width: calc(30 / 430 * 100vw);
-    height: calc(60 / 932 * 100vh);
+    height: 60px;
     top: 0;
     right: calc(11.86 / 430 * 100vw);
     cursor: pointer;
