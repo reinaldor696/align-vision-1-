@@ -3113,11 +3113,11 @@ footer {
 }
 
 .case-studies-bar-img {
-    position: relative;
+    position: absolute;
     width: calc(5 / 430 * 100vw);
     height: 3px;
-    top: 0;
-    left: calc(-76 / 430 * 100vw);
+    top: 9px;
+    left: calc(36.9 / 430 * 100vw);
 }
 
 .case-studies-bar-element {
@@ -3189,6 +3189,46 @@ footer {
 .btn-mquery-case-studies-img svg {
     width: calc(10 / 430 * 100vw);
     height: 18px;
+}
+
+.case-studies-DSC-2 {
+    opacity: 0;
+    scale: 0;
+    position: relative;
+}
+
+.case-studies-DSC-4 {
+    opacity: 0;
+    scale: 0;
+}
+
+.case-studies-DSC-5 {
+    opacity: 0;
+    scale: 0;
+}
+.case-studies-DSC-6 {
+    opacity: 0;
+    scale: 0;
+}
+.case-studies-DSC-7 {
+    opacity: 0;
+    scale: 0;
+}
+.case-studies-DSC-8 {
+    opacity: 0;
+    scale: 0;
+}
+.case-studies-DSC-9 {
+    opacity: 0;
+    scale: 0;
+}
+.case-studies-DSC-10 {
+    opacity: 0;
+    scale: 0;
+}
+.case-studies-DSC-11 {
+    opacity: 0;
+    scale: 0;
 }
 /* Case studies End */
 }

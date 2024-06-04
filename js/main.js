@@ -435,6 +435,58 @@ function caseStudies() {
     }
 }
 caseStudies();
+
+const caseStudiesDSCMquery = document.querySelectorAll('.case-studies-DSC-mquery');
+const caseStudiesBarImg = document.querySelector('.case-studies-bar-img');
+let counter = 0;
+let porcent = 0;
+
+function imgBefore() {
+    if(counter > 0) {
+        counter--;
+    }
+
+    porcent -= 10;
+
+    if (porcent <= 5) {
+        porcent = 5;
+    }
+
+    caseStudiesBarImg.style.width = `${porcent}%`
+
+    updateImage();
+}
+
+function imgAfter() {
+    if(counter < caseStudiesDSCMquery.length - 1) {
+        counter++;
+    }
+
+    porcent += 10;
+
+    if (porcent > 80) {
+        porcent = 80;
+    }
+
+    caseStudiesBarImg.style.width = `${porcent}%`;
+
+    updateImage();
+}
+
+function updateImage() {
+    caseStudiesDSCMquery.forEach((img, index) => {
+        if(index === counter) {
+            img.style.opacity = 1;
+            img.style.scale = 1;
+
+            
+
+        } else {
+            img.style.opacity = 0;
+            img.style.scale = 0;
+        }
+    });
+}
 /* section case studies End */
 
 /* section menu mquery */
