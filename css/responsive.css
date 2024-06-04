@@ -2931,7 +2931,7 @@ footer {
 
 .case-studies-text-wrapper {
     position: absolute;
-    top: 159px;
+    top: 70px;
     left: calc(73 / 430 * 100vw);
     color: #1F4283;
     text-align: center;
@@ -2945,7 +2945,7 @@ footer {
 
 .case-studies-div {
     position: absolute;
-    top: 241px;
+    top: 152px;
     left: calc(30 / 430 * 100vw);
     color:#707C93;
     text-align: center;
@@ -2960,7 +2960,7 @@ footer {
 .case-studies-frame {
     width: auto;
     left: 0;
-    top: 350px;
+    top: 261px;
 }
 
 .case-studies-DSC {
@@ -3037,15 +3037,15 @@ footer {
 }
 
 .case-studies-bar-overlap {
-    top: 740.58;
-    left: calc(29 / 430 * 100vw);
+    top: 651.58;
+    left: calc(10 / 430 * 100vw);
     height: auto;
     width: auto;
 }
 
 .case-studies-bar-case-study-2 {
-    top: 740.58;
-    left: calc(168 / 430 * 100vw);
+    top: 651.58;
+    left: calc(150 / 430 * 100vw);
     height: auto;
     width: auto;
     gap: 4px;
@@ -3055,8 +3055,8 @@ footer {
 }
 
 .case-studies-bar-case-study-3 {
-    top: 740.58px;
-    left: calc(301 / 430 * 100vw);
+    top: 651.58;
+    left: calc(273 / 430 * 100vw);
     height: auto;
     width: auto;
     gap: 4px;
@@ -3095,8 +3095,8 @@ footer {
 }
 
 .case-studies-bar-overlap-group {
-    top: 689px;
-    left: calc(69 / 430 * 100vw);
+    top: 560px;
+    left: calc(45 / 430 * 100vw);
     width: auto;
     height: auto;
     display: flex;
@@ -3138,30 +3138,30 @@ footer {
 
 .case-studies-bar-line-2 {
     position: relative;
-    top: 699.45px;
-    left: calc(241.9 / 430 * 100vw);
+    top: 570.45px;
+    left: calc(217.9 / 430 * 100vw);
     width: calc(92 / 430 * 100vw);
     height: 3px;
 }
 
 .case-studies-bar-img-2 {
     position: absolute;
-    top: 699.45px;
-    left: calc(241.9 / 430 * 100vw);
+    top: 570.45px;
+    left: calc(217.9 / 430 * 100vw);
     width: calc(0 / 430 * 100vw);
     height: 3px;
 }
 
 .case-studies-bar-element-2 {
-    top: 694.45px;
-    left: calc(213.9 / 430 * 100vw);
+    top: 565.45px;
+    left: calc(189.9 / 430 * 100vw);
     width: calc(12 / 430 * 100vw);
     height: calc(12 / 430 * 100vw);
 }
 
 .case-studies-bar-element-3 {
-    top: 694.45px;
-    left: calc(350 / 430 * 100vw);
+    top: 565.45px;
+    left: calc(335 / 430 * 100vw);
     width: calc(12 / 430 * 100vw);
     height: calc(12 / 430 * 100vw);
 }

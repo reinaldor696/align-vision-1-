@@ -395,7 +395,7 @@ function caseStudies() {
             opacity: 1,
             duration: 1,
             delay: 0.3,
-            y: -290,
+            y: -379,
         }, '-=1');
 
         tl2.to('.case-studies-DSC', {
@@ -403,7 +403,7 @@ function caseStudies() {
             scale: 2,
             width: '100%',
             height: '100%',
-            top: '-65px',
+            y: '-40%',
             left: 0,
             duration: 1,
             ease: "expoScale(0.5,7,none)",
@@ -417,7 +417,7 @@ function caseStudies() {
             height: '310px',
             duration: 1,
             ease: "expoScale(0.5,7,none)",
-            top: '285px',
+            y: '-20%',
             left: 'calc(30 / 430 * 100vw)',
             borderRadius: '25.123px',
         }, '-=1.25');
