@@ -260,7 +260,6 @@ header {
     width: calc(1146 / 1920 * 100vw);
     height: calc(830 / 1080 * 100vh);
     border-radius: 35px;
-    background: #1F4283;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,10 +274,11 @@ header {
     height: 100%;
 }
 
-.background1 img {
+.img-home-background1 {
     width: calc(1146 / 1920 * 100vw);
     height: calc(830 / 1080 * 100vh);
     border-radius: 35px;
+    background-color: #1F4283;
 }
 
 .content1-container1-content {
@@ -391,10 +391,9 @@ header {
 }
 
 .content2-container1 {
+    position: relative;
     width: calc(656 / 1920 * 100vw);
     height: calc(831 / 1080 * 100vh);
-    border-radius: 35px;
-    background: linear-gradient(149deg, #94ACE8 21.11%, #FFF 39.18%, #D9E6FD 52.6%);
 }
 
 /**/
@@ -417,11 +416,10 @@ header {
 }
 
 .box-avatars img {
-
+    background-color: var(--gray);
     width: calc(204 / 1920 * 100vw);
     height: calc(59 / 1080 * 100vh);
     object-fit: contain;
-
 }
 
 .box-overlap-group-wrapper {
@@ -533,6 +531,7 @@ header {
 }
 
 #box-vector {
+    background-color: var(--gray);
     position: absolute;
     width: calc(14 / 1920 * 100vw);
     height: calc(22 / 1080 * 100vh);
@@ -714,9 +713,12 @@ header {
 }
 
 .overlap-group {
-    position: relative;
-    width: calc(706 / 1920 * 100vw);
-    height: calc(885 / 1080 * 100vh);
+    position: absolute;
+    width: calc(656 / 1920 * 100vw);
+    height: calc(831 / 1080 * 100vh);
+    border-radius: 35px;
+    background: linear-gradient(149deg, #94ACE8 21.11%, #FFF 39.18%, #D9E6FD 52.6%);
+    right: 0;
 }
 
 .gradient {

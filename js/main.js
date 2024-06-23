@@ -537,3 +537,57 @@ function resourceOptions() {
     }
 }
 /* section menu mquery End */
+
+/* section home animation */
+function homeAnimationSection1() {
+    if (matchMedia("(min-width: 480px)").matches) {
+        
+        //header animation
+        gsap.fromTo('.header-container', 
+            { opacity: 0, y: '-50%' },
+            { duration: 1, opacity: 1, y: 0 }
+        );
+
+
+        //section 1 animation
+        gsap.fromTo('.img-home-background1, .content1-container1-content', 
+            { opacity: 0, x: '-10%' },
+            { duration: 1, opacity: 1, x: 0 }
+        );
+
+        gsap.fromTo('.img-home-background1', 
+            {  width: '85%' },
+            { duration: 1, width: '100%' }
+        );
+
+
+        //section 2 animation
+        gsap.fromTo('.content2-container1', 
+            { opacity: 0, x: '10%' },
+            { duration: 1, opacity: 1, x: 0 }
+        );
+
+        gsap.fromTo('.overlap-group', 
+            { opacity: 0, x: '10%', width: '50%' },
+            { opacity: 1, x: 0, width: '100%', duration: 1, }
+        );
+
+        //animation tablet
+        gsap.fromTo('.patients-square', 
+            { opacity: 0, x: '30%' },
+            { duration: 1, opacity: 1, x: 0 }
+        );
+
+        //animation phone
+        gsap.fromTo('.phone', 
+            { opacity: 0, y: '30%', transform: 'rotate(-25deg)' },
+            { opacity: 1, y: 0, transform: 'rotate(0deg)', duration: 1 }
+        );
+    }
+}
+homeAnimationSection1();
+
+function homeAnimationSection2() {
+    
+}
+/* section home animation */
