@@ -48,7 +48,13 @@ header {
     width: calc(378 / 430 * 100vw);
     height: 60px;
     border-radius: 10px;
-    margin: 36px calc(26 / 430 * 100vw) 0 calc(26 / 430 * 100vw);
+    padding: 36px calc(26 / 430 * 100vw) 0 calc(26 / 430 * 100vw);
+}
+
+.header-container {
+    width: calc(378 / 430 * 100vw);
+    height: 60px;
+    border-radius: 10px;
 }
 
 .logo-container {

@@ -1,4 +1,11 @@
 window.onload = () => {window.scrollTo(0, 0);}
+
+/* header */
+const navResources = document.querySelector('#nav-resources2');
+const resourcesMenu = document.querySelector('.resources-menu');
+const navResourcesSvg = document.querySelector('.nav-resources svg');
+/* header end */
+
 /* section services */
 const servicesTitle2 = document.querySelector('.services-title-2');
 const servicesCard = document.querySelector('.services-card');
@@ -56,6 +63,19 @@ function closePlanComparation() {
     }
 }
 /* section services end */
+
+/* header */
+navResources.addEventListener('mouseenter', () => {
+    resourcesMenu.style.display = 'block';
+    navResourcesSvg.style.transform = 'rotate(180deg)';
+});
+
+navResources.addEventListener('mouseleave', () => {
+    resourcesMenu.style.display = 'none';
+    navResourcesSvg.style.transform = 'rotate(0deg)';
+});
+
+/* header end */
 
 /* section case studies */
 function caseStudies() {
