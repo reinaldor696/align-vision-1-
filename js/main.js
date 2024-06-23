@@ -588,6 +588,21 @@ function homeAnimationSection1() {
 homeAnimationSection1();
 
 function homeAnimationSection2() {
-    
+    gsap.fromTo('.img-content4-container1', 
+        {
+            scale: 0.5
+        },
+        {
+            scrollTrigger: { 
+                trigger: '.img-content4-container1',
+                start: 'center 700',
+                end: 'center 700',
+                markers: true
+            },
+            scale: 1,
+            duration: 1
+        }
+    );
 }
+homeAnimationSection2();
 /* section home animation */

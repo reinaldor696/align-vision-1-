@@ -620,9 +620,15 @@ header {
     letter-spacing: calc(-2.6 / 1920 * 100vw);
 }
 
-.img-content4-container1 img {
+.img-content4-container1 {
     width: calc(778 / 1920 * 100vw);
     height: calc(590 / 1080 * 100vh);
+}
+
+.img-content4-container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 0 30px 30px 0;
 }
 
