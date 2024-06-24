@@ -596,8 +596,7 @@ function homeAnimationSection2() {
             scrollTrigger: { 
                 trigger: '.img-content4-container1',
                 start: 'center 700',
-                end: 'center 700',
-                markers: true
+                end: 'center 700'
             },
             scale: 1,
             duration: 1
@@ -605,4 +604,33 @@ function homeAnimationSection2() {
     );
 }
 homeAnimationSection2();
+
+function homeAnimationSection3() {
+    const tl = gsap.timeline({ 
+        scrollTrigger: { 
+            trigger: '.text123-content1-container2-container',
+            start: 'top center',
+            end: '700 center',
+            markers: true,
+            scrub: 1,
+            stagger: 4
+        }
+    });
+
+    tl.fromTo('.img-text1-content1-container2 img', 
+        { x: '40%' },
+        { x: 0, duration: 1 }
+    );
+
+    tl.fromTo('.img-text2-content1-container2 img', 
+        { x: '40%' },
+        { x: 0, duration: 1 }
+    );
+
+    tl.fromTo('.img-text3-content1-container2 img', 
+        { x: '90%' },
+        { x: 0, duration: 1 }
+    );
+}
+homeAnimationSection3();
 /* section home animation */

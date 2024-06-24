@@ -893,6 +893,7 @@ header {
     border-radius: 30px;
     background: var(--gradient, linear-gradient(101deg, #FFF 3.27%, #B7D0FF 27.11%, #D9E6FD 75.74%));
     display: flex;
+    overflow: hidden;
 }
 
 .img-text2-content1-container2 img {
@@ -980,7 +981,7 @@ header {
     height: calc(94 / 1080 * 100vh);
     justify-content: center;
     align-items: center;
-    border-radius: 15;
+    border-radius: 15px;
     background: #1F4283;
     color: #FFF;
     text-align: center;
