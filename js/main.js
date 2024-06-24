@@ -611,7 +611,6 @@ function homeAnimationSection3() {
             trigger: '.text123-content1-container2-container',
             start: 'top center',
             end: '700 center',
-            markers: true,
             scrub: 1,
             stagger: 4
         }
@@ -633,4 +632,26 @@ function homeAnimationSection3() {
     );
 }
 homeAnimationSection3();
+
+function homeAnimationSection4() {
+    const tl = gsap.timeline({ 
+        scrollTrigger: { 
+            trigger: '.all-doctors-cards-container',
+            start: 'top bottom',
+            end: '700 bottom',
+        }
+    });
+
+    tl.fromTo('.img-content2-container2 img', 
+        { scale: 0  },
+        { scale: 1, duration: 1 }
+    );
+
+    tl.fromTo('.doctors-cards-container', 
+        { scale: 0.8, opacity: 0.8 },
+        { scale: 1, opacity: 1, duration: 1 },
+    '-=1');
+    
+}
+homeAnimationSection4();
 /* section home animation */
