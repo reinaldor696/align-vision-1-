@@ -4987,6 +4987,14 @@ header {
     position: relative;
     align-self: stretch;
     width: 100%;
+    padding: calc(20 / 1080 * 100vh) calc(20 / 1920 * 100vw);
+    font-family: "Gordita-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: calc(25 / 1920 * 100vw);
+    letter-spacing: calc(-1 / 1920 * 100vw);
+    line-height: normal;
+    white-space: nowrap;
 }
 
 .contact-us-btn {
@@ -5553,6 +5561,7 @@ footer {
     height: calc(928 / 1080 * 100vh);
     top: calc(8 / 1080 * 100vh);
     left: 0;
+    z-index: 2;
 }
 
 .footer-blur-circle {
@@ -5561,7 +5570,7 @@ footer {
     height: calc(1600 / 1080 * 100vh);
     top: 0;
     left: calc(359 / 1920 * 100vw);
-    opacity: 0.35;
+    opacity: 1;
 }
 
 .footer-overlap-group {
@@ -5573,27 +5582,30 @@ footer {
 
 .footer-ellipse {
     width: calc(503 / 1920 * 100vw);
-    height: calc(503 / 1080 * 100vh);
+    height: calc(503 / 1920 * 100vw);
     top: calc(205 / 1080 * 100vh);
     left: calc(92 / 1920 * 100vw);
     background-color: #94ace8;
     border-radius: 251.39px;
     position: absolute;
     transform: rotate(-30deg);
-    filter: blur(50px);
+    filter: blur(25px);
+    z-index: 1;
+    opacity: 0.35;
 }
 
 .footer-div {
     width: calc(460 / 1920 * 100vw);
-    height: calc(460 / 1080 * 100vh);
+    height: calc(460 / 1920 * 100vw);
     top: calc(84 / 1080 * 100vh);
     left: calc(519 / 1920 * 100vw);
     background-color: #f2f3fe;
     border-radius: 230.05px;
-    opacity: 0.5;
+    opacity: 0.35;
     position: absolute;
     transform: rotate(-30deg);
-    filter: blur(50px);
+    filter: blur(25px);
+    z-index: 1;
 }
 
 .footer-glass {
@@ -5614,6 +5626,14 @@ footer {
     top: calc(173 / 1080 * 100vh);
     left: calc(179 / 1920 * 100vw);
     object-fit: contain;
+    z-index: 3;
+}
+
+.footer-btn-a {
+    position: absolute;
+    top: calc(404 / 1080* 100vh);
+    left: calc(1522 / 1920* 100vw);
+    z-index: 3;
 }
 
 .footer-btn {
@@ -5624,9 +5644,6 @@ footer {
     align-items: center;
     justify-content: center;
     padding: calc(18 / 1080 * 100vh) calc(43 / 1920 * 100vw);
-    position: absolute;
-    top: calc(404 / 1080 * 100vh);
-    left: calc(1522 / 1920 * 100vw);
     background-color: #ffffff;
     color: #1F4283;
     border-radius: 15px;
@@ -5662,6 +5679,7 @@ footer {
     position: absolute;
     top: calc(372 / 1080 * 100vh);
     left: calc(177 / 1920 * 100vw);
+    z-index: 3;
 }
 
 .footer-pages {
@@ -5759,6 +5777,7 @@ footer {
     letter-spacing: calc(-1 / 1920 * 100vw);
     line-height: normal;
     white-space: nowrap;
+    z-index: 3;
 }
 
 /* Footer End */

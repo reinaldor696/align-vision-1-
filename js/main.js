@@ -588,219 +588,283 @@ function homeAnimationSection1() {
 homeAnimationSection1();
 
 function homeAnimationSection2() {
-    gsap.fromTo('.img-content4-container1', 
-        {
-            scale: 0.5
-        },
-        {
-            scrollTrigger: { 
-                trigger: '.img-content4-container1',
-                start: 'center 700',
-                end: 'center 700'
+    if (matchMedia("(min-width: 480px)").matches) {
+        gsap.fromTo('.img-content4-container1', 
+            {
+                scale: 0.5
             },
-            scale: 1,
-            duration: 1
-        }
-    );
+            {
+                scrollTrigger: { 
+                    trigger: '.img-content4-container1',
+                    start: 'center 700',
+                    end: 'center 700'
+                },
+                scale: 1,
+                duration: 1
+            }
+        );
+    }
 }
 homeAnimationSection2();
 
 function homeAnimationSection3() {
-    const tl = gsap.timeline({ 
-        scrollTrigger: { 
-            trigger: '.text123-content1-container2-container',
-            start: 'top center',
-            end: '700 center',
-            scrub: 1,
-            stagger: 4
-        }
-    });
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.text123-content1-container2-container',
+                start: 'top center',
+                end: '700 center',
+                scrub: 1,
+                stagger: 4
+            }
+        });
 
-    tl.fromTo('.img-text1-content1-container2 img', 
-        { x: '40%' },
-        { x: 0, duration: 1 }
-    );
+        tl.fromTo('.img-text1-content1-container2 img', 
+            { x: '40%' },
+            { x: 0, duration: 1 }
+        );
 
-    tl.fromTo('.img-text2-content1-container2 img', 
-        { x: '40%' },
-        { x: 0, duration: 1 }
-    );
+        tl.fromTo('.img-text2-content1-container2 img', 
+            { x: '40%' },
+            { x: 0, duration: 1 }
+        );
 
-    tl.fromTo('.img-text3-content1-container2 img', 
-        { x: '90%' },
-        { x: 0, duration: 1 }
-    );
+        tl.fromTo('.img-text3-content1-container2 img', 
+            { x: '90%' },
+            { x: 0, duration: 1 }
+        );
+    }
 }
 homeAnimationSection3();
 
 function homeAnimationSection4() {
-    const tl = gsap.timeline({ 
-        scrollTrigger: { 
-            trigger: '.all-doctors-cards-container',
-            start: 'top bottom',
-            end: '700 bottom',
-        }
-    });
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.all-doctors-cards-container',
+                start: 'top bottom',
+                end: '700 bottom',
+            }
+        });
 
-    tl.fromTo('.img-content2-container2 img', 
-        { scale: 0  },
-        { scale: 1, duration: 1 }
-    );
+        tl.fromTo('.img-content2-container2 img', 
+            { scale: 0  },
+            { scale: 1, duration: 1 }
+        );
 
-    tl.fromTo('.doctors-cards-container', 
-        { scale: 0.8, opacity: 0.8 },
-        { scale: 1, opacity: 1, duration: 1 },
-    '-=1');
-    
+        tl.fromTo('.doctors-cards-container', 
+            { scale: 0.8, opacity: 0.8 },
+            { scale: 1, opacity: 1, duration: 1 },
+        '-=1');
+    }
 }
 homeAnimationSection4();
 
 function homeAnimationSection5() {
-    const tl = gsap.timeline({ 
-        scrollTrigger: { 
-            trigger: '.content3-container2',
-            start: 'top bottom',
-            end: 'top bottom',
-        }
-    });
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.content3-container2',
+                start: 'top bottom',
+                end: 'top bottom',
+            }
+        });
 
-    tl.fromTo('.content3-container2', 
-        { y: '20%' },
-        { y: 0, duration: 1 }
-    );
+        tl.fromTo('.content3-container2', 
+            { y: '20%' },
+            { y: 0, duration: 1 }
+        );
 
-    tl.fromTo('.content-card-content3-container2', 
-        { y: '50%', opacity: 0},
-        { y: 0, opacity: 1, duration: 1 },
-    '-=0.5');
+        tl.fromTo('.content-card-content3-container2', 
+            { y: '50%', opacity: 0},
+            { y: 0, opacity: 1, duration: 1 },
+        '-=0.5');
 
-    tl.fromTo('.background-content3-container2', 
-        
-        { width: 'calc(1920 / 1920* 100vw)', margin: 0, borderRadius: 0 },
-        
-        {   
-            width: 'calc(1820 / 1920* 100vw)',
-            marginLeft: 'calc(50 / 1920* 100vw)',
-            borderRadius: '35px',
-            duration: 1
-        },
-    '-=0.5');
-
+        tl.fromTo('.background-content3-container2', 
+            
+            { width: 'calc(1920 / 1920* 100vw)', margin: 0, borderRadius: 0 },
+            
+            {   
+                width: 'calc(1820 / 1920* 100vw)',
+                marginLeft: 'calc(50 / 1920* 100vw)',
+                borderRadius: '35px',
+                duration: 1
+            },
+        '-=0.5');
+    }
 }
 homeAnimationSection5();
 
 function homeAnimationSection6() {
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container3-div',
+                start: 'top 500',
+                end: 'top 500',
+            }
+        });
 
-    const tl = gsap.timeline({ 
-        scrollTrigger: { 
-            trigger: '.container3-div',
-            start: 'top 500',
-            end: 'top 500',
-        }
-    });
+        tl.fromTo('#container3-img1', 
+            { transform: 'rotate(-179deg)' },
+            { transform: 'rotate(0deg)', duration: 1 }
+        );
+        
+        tl.fromTo('#container3-text-wrapper-3-1', 
+            { x: '25vw' },
+            { x: 0, duration: 1 },
+        '-=1');
 
-    tl.fromTo('#container3-img1', 
-        { transform: 'rotate(-179deg)' },
-        { transform: 'rotate(0deg)', duration: 1 }
-    );
-    
-    tl.fromTo('#container3-text-wrapper-3-1', 
-        { x: '25vw' },
-        { x: 0, duration: 1 },
-    '-=1');
-
-    tl.fromTo('#container3-div-2-1', 
-        { x: '70%' },
-        { x: 0, duration: 1 },
-    '-=1');
+        tl.fromTo('#container3-div-2-1', 
+            { x: '70%' },
+            { x: 0, duration: 1 },
+        '-=1');
+    }
 }
 homeAnimationSection6();
 
 function homeAnimationSection7() {
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container3-div-3',
+                start: 'top 500',
+                end: 'top 500',
+            }
+        });
 
-    const tl = gsap.timeline({ 
-        scrollTrigger: { 
-            trigger: '.container3-div-3',
-            start: 'top 500',
-            end: 'top 500',
-        }
-    });
+        tl.fromTo('#container3-img2', 
+            { transform: 'rotate(-179deg)' },
+            { transform: 'rotate(0deg)', duration: 1 }
+        );
+        
+        tl.fromTo('#container3-text-wrapper-3-2', 
+            { x: '25vw' },
+            { x: 0, duration: 1 },
+        '-=1');
 
-    tl.fromTo('#container3-img2', 
-        { transform: 'rotate(-179deg)' },
-        { transform: 'rotate(0deg)', duration: 1 }
-    );
-    
-    tl.fromTo('#container3-text-wrapper-3-2', 
-        { x: '25vw' },
-        { x: 0, duration: 1 },
-    '-=1');
-
-    tl.fromTo('#container3-div-2-2', 
-        { x: '70%' },
-        { x: 0, duration: 1 },
-    '-=1');
+        tl.fromTo('#container3-div-2-2', 
+            { x: '70%' },
+            { x: 0, duration: 1 },
+        '-=1');
+    }
 }
 homeAnimationSection7();
 
 function homeAnimationSection8() {
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container3-div-4',
+                start: 'top 500',
+                end: 'top 500',
+            }
+        });
 
-    const tl = gsap.timeline({ 
-        scrollTrigger: { 
-            trigger: '.container3-div-4',
-            start: 'top 500',
-            end: 'top 500',
-        }
-    });
+        tl.fromTo('#container3-img3', 
+            { transform: 'rotate(-179deg)' },
+            { transform: 'rotate(0deg)', duration: 1 }
+        );
+        
+        tl.fromTo('#container3-text-wrapper-3-3', 
+            { x: '25vw' },
+            { x: 0, duration: 1 },
+        '-=1');
 
-    tl.fromTo('#container3-img3', 
-        { transform: 'rotate(-179deg)' },
-        { transform: 'rotate(0deg)', duration: 1 }
-    );
-    
-    tl.fromTo('#container3-text-wrapper-3-3', 
-        { x: '25vw' },
-        { x: 0, duration: 1 },
-    '-=1');
-
-    tl.fromTo('#container3-div-2-3', 
-        { x: '70%' },
-        { x: 0, duration: 1 },
-    '-=1');
+        tl.fromTo('#container3-div-2-3', 
+            { x: '70%' },
+            { x: 0, duration: 1 },
+        '-=1');
+    }
 }
 homeAnimationSection8();
 
 function homeAnimationSection9() {
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container4-content',
+                start: 'top 400',
+                end: 'top 400',
+            }
+        });
 
-    const tl = gsap.timeline({ 
-        scrollTrigger: { 
-            trigger: '.container4-content',
-            start: 'top 400',
-            end: 'top 400',
-        }
-    });
-
-    tl.fromTo('.container4-content-vector', 
-        { transform: 'rotate(-179deg)' },
-        { transform: 'rotate(0deg)', duration: 1 }
-    );
+        tl.fromTo('.container4-content-vector', 
+            { transform: 'rotate(-179deg)' },
+            { transform: 'rotate(0deg)', duration: 1 }
+        );
+    }
 }
 homeAnimationSection9();
 
 function homeAnimationSection10() {
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container5-content-give-your-patients',
+                start: 'top 500',
+                end: 'top 500',
+            }
+        });
 
-    const tl = gsap.timeline({ 
-        scrollTrigger: { 
-            trigger: '.container5-content-give-your-patients',
-            start: 'top 500',
-            end: 'top 500',
-        }
-    });
-
-    tl.fromTo('.container5-content-joel-mott', 
-        { scale: 3 },
-        { scale: 1, duration: 1 }
-    );
+        tl.fromTo('.container5-content-joel-mott', 
+            { scale: 3 },
+            { scale: 1, duration: 1 }
+        );
+    }
 }
 homeAnimationSection10();
+
+function homeAnimationSection11() {
+    if (matchMedia("(min-width: 480px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.footer-overlap',
+                start: 'top center',
+                end: 'top center',
+            }
+        });
+
+        //time 1
+        tl.fromTo('.footer-div', 
+            { y: '190%', x: '-50%'},
+            { y: '124%', x: '-108%', duration: 1, delay: 4 }
+        );
+
+        tl.fromTo('.footer-ellipse', 
+            { y: '140%', x: '65%' },
+            { y: '36%', x: '45%', duration: 1 },
+        '-=1');
+        
+        //time 2
+        tl.to('.footer-div', 
+            { y: 0, x: 0, duration: 1, delay: 4 }
+        );
+
+        tl.to('.footer-ellipse', 
+            { y: 0, x: 0, duration: 1 },
+        '-=1');
+
+        //time 3
+        tl.to('.footer-div', 
+            { y: '78%', x: '-51%', duration: 1, delay: 4 },
+        );
+
+        tl.to('.footer-ellipse', 
+            { y: '85%', x: '45%', duration: 1 },
+        '-=1');
+
+        //time 4
+        tl.to('.footer-div', 
+            { y: '130%', x: '-50%', duration: 1, delay: 4 }
+        );
+
+        tl.to('.footer-ellipse', 
+            { y: '140%', duration: 1 },
+        '-=1');
+
+        tl.repeat(-1);
+    }
+}
+homeAnimationSection11();
 /* section home animation */
