@@ -654,4 +654,38 @@ function homeAnimationSection4() {
     
 }
 homeAnimationSection4();
+
+function homeAnimationSection5() {
+    const tl = gsap.timeline({ 
+        scrollTrigger: { 
+            trigger: '.content3-container2',
+            start: 'top bottom',
+            end: 'top bottom',
+        }
+    });
+
+    tl.fromTo('.content3-container2', 
+        { y: '20%' },
+        { y: 0, duration: 1 }
+    );
+
+    tl.fromTo('.content-card-content3-container2', 
+        { y: '50%', opacity: 0},
+        { y: 0, opacity: 1, duration: 1 },
+    '-=0.5');
+
+    tl.fromTo('.background-content3-container2', 
+        
+        { width: 'calc(1920 / 1920* 100vw)', margin: 0, borderRadius: 0 },
+        
+        {   
+            width: 'calc(1820 / 1920* 100vw)',
+            marginLeft: 'calc(50 / 1920* 100vw)',
+            borderRadius: '35px',
+            duration: 1
+        },
+    '-=0.5');
+
+}
+homeAnimationSection5();
 /* section home animation */
