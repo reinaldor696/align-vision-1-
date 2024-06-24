@@ -1590,6 +1590,7 @@ header {
     height: 6.822917vw;
     top: 28.072917vw;
     left: 39.583333vw;
+    z-index: 20;
 }
 
 .container5-content-container {

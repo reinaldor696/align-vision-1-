@@ -769,4 +769,38 @@ function homeAnimationSection8() {
     '-=1');
 }
 homeAnimationSection8();
+
+function homeAnimationSection9() {
+
+    const tl = gsap.timeline({ 
+        scrollTrigger: { 
+            trigger: '.container4-content',
+            start: 'top 400',
+            end: 'top 400',
+        }
+    });
+
+    tl.fromTo('.container4-content-vector', 
+        { transform: 'rotate(-179deg)' },
+        { transform: 'rotate(0deg)', duration: 1 }
+    );
+}
+homeAnimationSection9();
+
+function homeAnimationSection10() {
+
+    const tl = gsap.timeline({ 
+        scrollTrigger: { 
+            trigger: '.container5-content-give-your-patients',
+            start: 'top 500',
+            end: 'top 500',
+        }
+    });
+
+    tl.fromTo('.container5-content-joel-mott', 
+        { scale: 3 },
+        { scale: 1, duration: 1 }
+    );
+}
+homeAnimationSection10();
 /* section home animation */
