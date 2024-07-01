@@ -4,6 +4,7 @@ window.onload = () => {window.scrollTo(0, 0);}
 const navResources = document.querySelector('#nav-resources2');
 const resourcesMenu = document.querySelector('.resources-menu');
 const navResourcesSvg = document.querySelector('.nav-resources svg');
+const headerContainer = document.getElementById('header-container');
 /* header end */
 
 /* section services */
@@ -74,6 +75,42 @@ navResources.addEventListener('mouseleave', () => {
     resourcesMenu.style.display = 'none';
     navResourcesSvg.style.transform = 'rotate(0deg)';
 });
+
+(function(){
+    let doc = document.documentElement;
+    let w = window;
+    
+    let prevDirection = 0;
+    let curScroll
+    let prevScroll = w.scrollY || doc.scrollTop;
+    let curDirection = prevDirection = 0;
+    
+
+    let checkScroll = function() {
+        curScroll = w.scrollY || doc.scrollTop;
+        if (curScroll > prevScroll) { 
+            curDirection = 2;
+        } else { 
+            curDirection = 1;
+        }
+
+        if (curDirection !== prevDirection) {
+            toggleHeader();
+        }
+        prevDirection = curDirection;
+        prevScroll = curScroll;
+    }
+
+    let toggleHeader = function() {
+        if (curDirection === 2) {
+            gsap.to(headerContainer, { opacity: 0, duration: 1, y: '-100%'});
+        } else {
+            gsap.to(headerContainer, { opacity: 1, duration: 1, y: '0'});
+        }
+    }
+
+    window.addEventListener('scroll', checkScroll);
+})();
 
 /* header end */
 
