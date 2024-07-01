@@ -3043,14 +3043,14 @@ footer {
 }
 
 .case-studies-bar-overlap {
-    top: 631.58;
+    top: calc(631.58 / 430 * 100vw);
     left: calc(10 / 430 * 100vw);
     height: auto;
     width: auto;
 }
 
 .case-studies-bar-case-study-2 {
-    top: 631.58;
+    top: calc( 631.58  / 430 * 100vw);
     left: calc(154 / 430 * 100vw);
     height: auto;
     width: auto;
@@ -3061,7 +3061,7 @@ footer {
 }
 
 .case-studies-bar-case-study-3 {
-    top: 631.58;
+    top: calc( 631.58  / 430 * 100vw);
     left: calc(300 / 430 * 100vw);
     height: auto;
     width: auto;
@@ -6186,7 +6186,7 @@ footer {
 .case-studies-frame {
     width: auto;
     left: 0;
-    top: calc( 261 / 430 * 100vw);
+    top: calc( 280 / 430 * 100vw);
 }
 
 .case-studies-DSC {
@@ -6232,7 +6232,7 @@ footer {
 
 .title-treatment-plan-mquery-case {
     position: absolute;
-    top: calc( 395 / 430 * 100vw);
+    top: calc( 295 / 430 * 100vw);
     left: calc(87 / 430 * 100vw);
     display: flex;
     flex-direction: column;
@@ -6263,14 +6263,14 @@ footer {
 }
 
 .case-studies-bar-overlap {
-    top: 631.58;
+    top: calc( 531.58  / 430 * 100vw);
     left: calc(10 / 430 * 100vw);
     height: auto;
     width: auto;
 }
 
 .case-studies-bar-case-study-2 {
-    top: 631.58;
+    top: calc( 531.58  / 430 * 100vw);
     left: calc(154 / 430 * 100vw);
     height: auto;
     width: auto;
@@ -6281,7 +6281,7 @@ footer {
 }
 
 .case-studies-bar-case-study-3 {
-    top: 631.58;
+    top: calc( 531.58  / 430 * 100vw);
     left: calc(300 / 430 * 100vw);
     height: auto;
     width: auto;
@@ -6321,7 +6321,7 @@ footer {
 }
 
 .case-studies-bar-overlap-group {
-    top: calc( 560 / 430 * 100vw);
+    top: calc( 460 / 430 * 100vw);
     left: calc(45 / 430 * 100vw);
     width: auto;
     height: auto;
@@ -6364,7 +6364,7 @@ footer {
 
 .case-studies-bar-line-2 {
     position: relative;
-    top: calc( 570.45 / 430 * 100vw);
+    top: calc( 470.45 / 430 * 100vw);
     left: calc(217.9 / 430 * 100vw);
     width: calc(92 / 430 * 100vw);
     height: calc( 3 / 430 * 100vw);
@@ -6372,21 +6372,21 @@ footer {
 
 .case-studies-bar-img-2 {
     position: absolute;
-    top: calc( 570.45 / 430 * 100vw);
+    top: calc( 470.45 / 430 * 100vw);
     left: calc(217.9 / 430 * 100vw);
     width: calc(0 / 430 * 100vw);
     height: calc( 3 / 430 * 100vw);
 }
 
 .case-studies-bar-element-2 {
-    top: calc( 565.45 / 430 * 100vw);
+    top: calc( 465.45 / 430 * 100vw);
     left: calc(189.9 / 430 * 100vw);
     width: calc(12 / 430 * 100vw);
     height: calc(12 / 430 * 100vw);
 }
 
 .case-studies-bar-element-3 {
-    top: calc( 565.45 / 430 * 100vw);
+    top: calc( 465.45 / 430 * 100vw);
     left: calc(335 / 430 * 100vw);
     width: calc(12 / 430 * 100vw);
     height: calc(12 / 430 * 100vw);
@@ -6395,7 +6395,7 @@ footer {
 .btn-mquery-case-studies-img {
     display: none;
     position: absolute;
-    top: calc( 240 / 430 * 100vw);
+    top: calc( 100 / 430 * 100vw);
     left: calc(135 / 430 * 100vw);
     gap: calc(5.025 / 430 * 100vw);
     z-index: 5;

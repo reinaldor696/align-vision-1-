@@ -5484,11 +5484,8 @@ header {
     font-family: "Gordita-Black", Helvetica;
     font-weight: 900;
     font-size: calc(6 / 1920 * 100vw);
-    letter-spacing: calc(-0.72 / 1920 * 100vw);
     position: absolute;
-    width: calc(23 / 1920 * 100vw);
     color: #ffffff;
-    text-align: center;
     line-height: normal;
     opacity: 0;
 }
