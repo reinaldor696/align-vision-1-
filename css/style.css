@@ -403,7 +403,7 @@ header {
     top: calc(396 / 1080 * 100vh);
     right: calc(42 / 1920 * 100vw);
     width: calc(358 / 1920 * 100vw);
-    height: calc(242 / 1080 * 100vh);
+    height: calc(242 / 1920 * 100vw);
     background-image: url(https://c.animaapp.com/O1yJMPG5/img/glass.svg);
     background-size: 100% 100%;
     overflow: hidden;
@@ -418,7 +418,7 @@ header {
 .box-avatars img {
     background-color: var(--gray);
     width: calc(204 / 1920 * 100vw);
-    height: calc(59 / 1080 * 100vh);
+    height: calc(59 / 1920 * 100vw);
     object-fit: contain;
 }
 
@@ -485,7 +485,7 @@ header {
 .box-overlap-2 {
     position: absolute;
     width: calc(302 / 1920 * 100vw);
-    height: calc(136 / 1080 * 100vh);
+    height: calc(136 / 1920 * 100vw);
     top: calc(480 / 1080 * 100vh);
     right: calc(66 / 1920 * 100vw);
 }
@@ -499,13 +499,13 @@ header {
     color: var(--brand-colorlight-blue);
     font-size: calc(54.4 / 1920 * 100vw);
     letter-spacing: calc(-2.18 / 1920 * 100vw);
-    line-height: calc(67.2 / 1080 * 100vh);
+    line-height: calc(67.2 / 1920 * 100vw);
     white-space: nowrap;
 }
 
 .box-text-wrapper-2 {
     position: absolute;
-    top: calc(50 / 1080 * 100vh);
+    top: calc(50 / 1920 * 100vw);
     left: calc(50 / 1920 * 100vw);
     font-family: var(--paragraph-24px-book-font-family);
     font-weight: 400;
@@ -513,16 +513,16 @@ header {
     color: var(--brand-colorlight-blue);
     font-size: calc(69.7 / 1920 * 100vw);
     letter-spacing: calc(-2.79 / 1920 * 100vw);
-    line-height: calc(86.1 / 1080 * 100vh);
+    line-height: calc(86.1 / 1920 * 100vw);
     white-space: nowrap;
 }
 
 .box-button {
     position: absolute;
     top: 0;
-    right: calc(40 / 1920 * 100vw);
-    width: calc(56 / 1080 * 100vh);
-    height: calc(56 / 1080 * 100vh);
+    right: calc(10 / 1920 * 100vw);
+    width: calc(56 / 1920 * 100vw);
+    height: calc(56 / 1920 * 100vw);
     background-color: var(--gray);
     border-radius: 28px;
     display: flex;
@@ -534,7 +534,7 @@ header {
     background-color: var(--gray);
     position: absolute;
     width: calc(14 / 1920 * 100vw);
-    height: calc(22 / 1080 * 100vh);
+    height: calc(22 / 1920 * 100vw);
 }
 
 .content-card1 h2 {
@@ -5522,6 +5522,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .case-studies-bar-element-3 {

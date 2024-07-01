@@ -79,7 +79,7 @@ navResources.addEventListener('mouseleave', () => {
 
 /* section case studies */
 function caseStudies() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.scroll-case-studies',
@@ -540,7 +540,7 @@ function resourceOptions() {
 
 /* section home animation */
 function homeAnimationSection1() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         
         //header animation
         gsap.fromTo('.header-container', 
@@ -588,7 +588,7 @@ function homeAnimationSection1() {
 homeAnimationSection1();
 
 function homeAnimationSection2() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         gsap.fromTo('.img-content4-container1', 
             {
                 scale: 0.5
@@ -608,7 +608,7 @@ function homeAnimationSection2() {
 homeAnimationSection2();
 
 function homeAnimationSection3() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.text123-content1-container2-container',
@@ -638,7 +638,7 @@ function homeAnimationSection3() {
 homeAnimationSection3();
 
 function homeAnimationSection4() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.all-doctors-cards-container',
@@ -661,7 +661,7 @@ function homeAnimationSection4() {
 homeAnimationSection4();
 
 function homeAnimationSection5() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.content3-container2',
@@ -696,7 +696,7 @@ function homeAnimationSection5() {
 homeAnimationSection5();
 
 function homeAnimationSection6() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.container3-div',
@@ -724,7 +724,7 @@ function homeAnimationSection6() {
 homeAnimationSection6();
 
 function homeAnimationSection7() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.container3-div-3',
@@ -752,7 +752,7 @@ function homeAnimationSection7() {
 homeAnimationSection7();
 
 function homeAnimationSection8() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.container3-div-4',
@@ -780,7 +780,7 @@ function homeAnimationSection8() {
 homeAnimationSection8();
 
 function homeAnimationSection9() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.container4-content',
@@ -798,7 +798,7 @@ function homeAnimationSection9() {
 homeAnimationSection9();
 
 function homeAnimationSection10() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.container5-content-give-your-patients',
@@ -816,7 +816,7 @@ function homeAnimationSection10() {
 homeAnimationSection10();
 
 function homeAnimationSection11() {
-    if (matchMedia("(min-width: 480px)").matches) {
+    if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
             scrollTrigger: { 
                 trigger: '.footer-overlap',
