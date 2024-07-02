@@ -76,40 +76,41 @@ navResources.addEventListener('mouseleave', () => {
     navResourcesSvg.style.transform = 'rotate(0deg)';
 });
 
+//function to hide the header when scrolling down and show it when scrolling up
 (function(){
     let doc = document.documentElement;
-    let w = window;
-    
     let prevDirection = 0;
-    let curScroll
-    let prevScroll = w.scrollY || doc.scrollTop;
-    let curDirection = prevDirection = 0;
-    
+    let prevScroll = window.scrollY || doc.scrollTop;
+    let curDirection = 0;
 
-    let checkScroll = function() {
-        curScroll = w.scrollY || doc.scrollTop;
-        if (curScroll > prevScroll) { 
-            curDirection = 2;
-        } else { 
-            curDirection = 1;
+    ScrollTrigger.create({
+        trigger: "#home",
+        start: "top top",
+        end: "bottom bottom",
+        onUpdate: (self) => {
+            let curScroll = self.scroll();
+            if (curScroll > prevScroll) { 
+                curDirection = 2; // down
+            } else { 
+                curDirection = 1; // up
+            }
+
+            if (curDirection !== prevDirection) {
+                toggleHeader(curDirection);
+            }
+
+            prevDirection = curDirection;
+            prevScroll = curScroll;
         }
+    });
 
-        if (curDirection !== prevDirection) {
-            toggleHeader();
-        }
-        prevDirection = curDirection;
-        prevScroll = curScroll;
-    }
-
-    let toggleHeader = function() {
-        if (curDirection === 2) {
-            gsap.to(headerContainer, { opacity: 0, duration: 1, y: '-100%'});
+    function toggleHeader(direction) {
+        if (direction === 2) {
+            gsap.to(headerContainer, { duration: 1, y: '-200%'});
         } else {
-            gsap.to(headerContainer, { opacity: 1, duration: 1, y: '0'});
+            gsap.to(headerContainer, { duration: 1, y: '0'});
         }
     }
-
-    window.addEventListener('scroll', checkScroll);
 })();
 
 /* header end */

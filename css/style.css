@@ -127,8 +127,8 @@ header {
     position: absolute;
     height: calc(115 / 1920* 100vw);
     width: calc(250 / 1920* 100vw);
-    top: calc(56 / 1080* 100vh);
-    left: 0;
+    top: calc(45 / 1080* 100vh);
+    left: calc(-23 / 1920* 100vw);
 }
 
 .selection-resources-menu-span {
