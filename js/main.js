@@ -7,6 +7,10 @@ const navResourcesSvg = document.querySelector('.nav-resources svg');
 const headerContainer = document.getElementById('header-container');
 /* header end */
 
+/* container1 */
+const counterContainer1 = document.getElementById('counter-container1');
+/* container1 end */
+
 /* section services */
 const servicesTitle2 = document.querySelector('.services-title-2');
 const servicesCard = document.querySelector('.services-card');
@@ -114,6 +118,33 @@ navResources.addEventListener('mouseleave', () => {
 })();
 
 /* header end */
+
+/* container1 */
+function counterContainer1Animation() {
+
+    //animation counter
+    const timeline = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".content3-container1",
+            start: "top center",
+            end: "top center",
+        }
+    });
+    
+
+    timeline.fromTo(counterContainer1,
+        { 
+            innerHTML: 0 
+        }, {
+            innerHTML: 1000,
+            duration: 2,
+            onUpdate: () => {
+                counterContainer1.innerHTML = Math.round(counterContainer1.innerHTML);
+            }
+    });
+}
+counterContainer1Animation();
+/* container1 end */
 
 /* section case studies */
 function caseStudies() {
