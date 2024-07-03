@@ -1115,7 +1115,7 @@ header {
 }
 
 .container5-content-container {
-    top: 201px;
+    top: 170px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -4329,14 +4329,6 @@ header {
     width: calc(159 / 430 * 100vw);
     height: calc( 51 / 430 * 100vw);
     border-radius: calc( 15 / 430 * 100vw);
-}
-
-.container5-content-container {
-    top: calc( 201 / 430 * 100vw);
-    left: 0;
-    width: 100%;
-    text-align: center;
-    gap: calc( 6.5 / 430 * 100vw);
 }
 
 .container5-content-element {

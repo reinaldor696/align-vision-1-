@@ -866,24 +866,6 @@ function homeAnimationSection9() {
 }
 homeAnimationSection9();
 
-function homeAnimationSection10() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.container5-content-give-your-patients',
-                start: 'top 500',
-                end: 'top 500',
-            }
-        });
-
-        tl.fromTo('.container5-content-joel-mott', 
-            { scale: 3 },
-            { scale: 1, duration: 1 }
-        );
-    }
-}
-homeAnimationSection10();
-
 function homeAnimationSection11() {
     if (matchMedia("(min-width: 1024px)").matches) {
         const tl = gsap.timeline({ 
