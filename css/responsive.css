@@ -470,6 +470,75 @@ header {
     font-weight: 400;
     line-height: 130%;
 }
+
+.content-card-content4-container1 {
+    width: calc(325 / 430 * 100vw);
+    height: 420px;
+    padding: 11.538px calc(11.538 / 430 * 100vw);
+    border-radius: 19.231px;
+    gap: 25px;
+}
+.content-card-content4-container1 img {
+    width: calc(301.923 / 430 * 100vw);
+    height: 201.282px;
+    border-radius: 19.231px;
+}
+.content-card-content4-container1 h3 {
+    color: #1F4283;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(20.513 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.821 / 430 * 100vw);
+}
+.content-card-content4-container1 p {
+    color: #707C93;
+    text-align: center;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(15.385 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content-card-content4-container1 button {
+    padding: 12.821px calc(30.769 / 430 * 100vw);
+    width: calc(115.54 / 430 * 100vw);
+    height: 42.64px;
+    border-radius: 9.615px;
+    background: #1F4283;
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(16.026 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.641 / 430 * 100vw);
+}
+
+.background-content4-container1 {
+    width: calc(396 / 430 * 100vw);
+    height: 1626px;
+    border-radius: 15px;
+    border: 0.321px solid #1F4283;
+    margin: 0;
+}
+
+.subtitle-content4-container1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(32 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-1.28 / 430 * 100vw);
+    margin-bottom: 61px;
+    display: flex;
+    flex-direction: column;
+}
 /* Container1 End */
 
 /* Container2 */
@@ -762,7 +831,7 @@ header {
     letter-spacing: calc(1.56 / 430 * 100vw);
 }
 
-.subtitle-content3-container2 {
+.subtitle-content4-container1 {
     color: #FFF;
     text-align: center;
     font-family: Gordita;
@@ -3686,6 +3755,75 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
+}
+
+.background-content4-container1 {
+    width: calc(396 / 430 * 100vw);
+    height: calc( 1626 / 430 * 100vw);
+    border-radius: calc( 15 / 430 * 100vw);
+    border: calc( 0.321 / 430 * 100vw) solid #1F4283;
+    margin: 0;
+}   
+
+.subtitle-content4-container1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(32 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-1.28 / 430 * 100vw);
+    margin-bottom: calc( 61 / 430 * 100vw);
+    display: flex;
+    flex-direction: column;
+}
+
+.content-card-content4-container1 {
+    width: calc(325 / 430 * 100vw);
+    height: calc( 420 / 430 * 100vw);
+    padding: calc( 11.538 / 430 * 100vw) calc(11.538 / 430 * 100vw);
+    border-radius: calc( 19.231 / 430 * 100vw);
+    gap: calc( 25 / 430 * 100vw);
+}
+.content-card-content4-container1 img {
+    width: calc(301.923 / 430 * 100vw);
+    height: calc( 201.282 / 430 * 100vw);
+    border-radius: calc( 19.231 / 430 * 100vw);
+}
+.content-card-content4-container1 h3 {
+    color: #1F4283;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(20.513 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.821 / 430 * 100vw);
+}
+.content-card-content4-container1 p {
+    color: #707C93;
+    text-align: center;
+    font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
+    font-size: calc(15.385 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content-card-content4-container1 button {
+    padding: calc( 12.821 / 430 * 100vw) calc(30.769 / 430 * 100vw);
+    width: calc(115.54 / 430 * 100vw);
+    height: calc( 42.64 / 430 * 100vw);
+    border-radius: calc( 9.615 / 430 * 100vw);
+    background: #1F4283;
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(16.026 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.641 / 430 * 100vw);
 }
 /* Container1 End */
 

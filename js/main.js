@@ -658,20 +658,35 @@ homeAnimationSection1();
 
 function homeAnimationSection2() {
     if (matchMedia("(min-width: 1024px)").matches) {
-        gsap.fromTo('.img-content4-container1', 
-            {
-                scale: 0.5
-            },
-            {
-                scrollTrigger: { 
-                    trigger: '.img-content4-container1',
-                    start: 'center 700',
-                    end: 'center 700'
-                },
-                scale: 1,
-                duration: 1
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.content4-container1',
+                start: 'top bottom',
+                end: 'top bottom',
             }
+        });
+
+        tl.fromTo('.content4-container1', 
+            { y: '20%' },
+            { y: 0, duration: 1 }
         );
+
+        tl.fromTo('.content-card-content4-container1', 
+            { y: '50%', opacity: 0},
+            { y: 0, opacity: 1, duration: 1 },
+        '-=0.5');
+
+        tl.fromTo('.background-content4-container1', 
+            
+            { width: 'calc(1920 / 1920* 100vw)', margin: 0, borderRadius: 0 },
+            
+            {   
+                width: 'calc(1820 / 1920* 100vw)',
+                marginLeft: 'calc(50 / 1920* 100vw)',
+                borderRadius: '35px',
+                duration: 1
+            },
+        '-=0.5');
     }
 }
 homeAnimationSection2();

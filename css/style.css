@@ -805,7 +805,100 @@ header {
     object-fit: contain;
 }
 
+.content-card-content4-container1 {
+    width: calc(507 / 1920 * 100vw);
+    height: calc(686 / 1080 * 100vh);
+    display: flex;
+    padding: calc(18 / 1080 * 100vh) calc(18 / 1920 * 100vw);
+    flex-direction: column;
+    align-items: center;
+    gap: calc(25 / 1080 * 100vh);
+    align-self: stretch;
+    border-radius: 30px;
+    background: #FFF;
+}
 
+.content-card-content4-container1 img {
+    width: calc(471 / 1920 * 100vw);
+    height: calc(314 / 1080 * 100vh);
+    border-radius: 30px;
+}
+
+.content-card-content4-container1 h3 {
+    color: #1F4283;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(32 / 1920 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-1.28 / 1920 * 100vw);
+}
+
+.content-card-content4-container1 p {
+    color: #707C93;
+    text-align: center;
+    font-family: "PP Neue Montreal", Helvetica;
+    font-size: calc(24 / 1920 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    align-self: stretch;
+    letter-spacing: calc(-.7 / 1920 * 100vw);
+}
+
+.content-card-content4-container1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #1F4283;
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(25 / 1920 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-1 / 1920 * 100vw);
+    cursor: pointer;
+    border: none;
+    width: calc(180 / 1920 * 100vw);
+    height: calc(67 / 1080 * 100vh);
+}
+
+.background-content4-container1 {
+    width: calc(1820 / 1920 * 100vw);
+    height: calc(1191 / 1080 * 100vh);
+    box-shadow: 0px .208333vw 1.302083vw .3125vw rgba(31, 66, 131, 0.25);
+    border-radius: 35px;
+    background: #1F4283;
+    margin-left: calc(50 / 1920 * 100vw);
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle-content4-container1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(75 / 1920 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: calc(-3 / 1920 * 100vw);
+    margin-bottom: calc(69 / 1080 * 100vh);
+}
+
+.subtitle-content4-container1 span {
+    color: #FFF;
+    font-family: Gordita;
+    font-size: calc(75 / 1920 * 100vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: calc(-3 / 1920 * 100vw);
+}
 /* Container1 End */
 
 /* Container2 */
