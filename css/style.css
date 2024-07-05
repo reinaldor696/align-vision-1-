@@ -806,22 +806,39 @@ header {
 }
 
 .content-card-content4-container1 {
-    width: calc(507 / 1920 * 100vw);
-    height: calc(686 / 1080 * 100vh);
+    width: calc(1487 / 1920* 100vw);
+    height: calc(686 / 1080* 100vh);
     display: flex;
-    padding: calc(18 / 1080 * 100vh) calc(18 / 1920 * 100vw);
-    flex-direction: column;
+    padding: calc(18 / 1080* 100vh) 0 (18 / 1080* 100vh) calc(18 / 1920* 100vw);
+    flex-direction: row-reverse;
     align-items: center;
-    gap: calc(25 / 1080 * 100vh);
+    gap: calc(150 / 1080* 100vh);
     align-self: stretch;
     border-radius: 30px;
     background: #FFF;
 }
 
 .content-card-content4-container1 img {
-    width: calc(471 / 1920 * 100vw);
-    height: calc(314 / 1080 * 100vh);
-    border-radius: 30px;
+    width: calc(653 / 1920* 100vw);
+    height: calc(405 / 1080* 100vh);
+    border-radius: 30px 0 0 30px;
+}
+
+.text-content-card-content4-container1 {
+    display: flex;
+    flex-direction: column;
+    gap: calc(60 / 1080* 100vh);
+}
+
+.text-content-card-content4-container1 div {
+    display: flex;
+    flex-direction: row;
+    gap: calc(10 / 1920* 100vw);
+}
+
+.text-content-card-content4-container1 svg {
+    width: calc(34 / 1920 * 100vw);
+    height: calc(34 / 1920 * 100vw);
 }
 
 .content-card-content4-container1 h3 {
@@ -837,9 +854,8 @@ header {
 
 .content-card-content4-container1 p {
     color: #707C93;
-    text-align: center;
     font-family: "PP Neue Montreal", Helvetica;
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: calc(32 / 1920 * 100vw);
     font-style: normal;
     font-weight: 400;
     line-height: 150%;

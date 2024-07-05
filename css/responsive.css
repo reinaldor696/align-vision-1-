@@ -371,7 +371,7 @@ header {
 
 .content3-logo-plans-mquery {
     display: block;
-    margin-top: 83px;
+    margin: 83px 0;
     width: calc(430 / 430 * 100vw);
     height: 380px;
     object-fit: contain;
@@ -472,17 +472,25 @@ header {
 }
 
 .content-card-content4-container1 {
-    width: calc(325 / 430 * 100vw);
-    height: 420px;
-    padding: 11.538px calc(11.538 / 430 * 100vw);
+    display: flex;
+    flex-direction: column;
+    width: calc(367 / 430* 100vw);
+    height: 670px;
+    padding: 11.538px calc(11.538 / 430* 100vw);
     border-radius: 19.231px;
-    gap: 25px;
+    gap: 80px;
 }
 .content-card-content4-container1 img {
-    width: calc(301.923 / 430 * 100vw);
-    height: 201.282px;
+    width: calc(328.923 / 430* 100vw);
+    height: 232.282px;
     border-radius: 19.231px;
 }
+
+.text-content-card-content4-container1 svg {
+    width: calc(34 / 430 * 100vw);
+    height: calc(34 / 430 * 100vw);
+}
+
 .content-card-content4-container1 h3 {
     color: #1F4283;
     text-align: center;
@@ -493,11 +501,16 @@ header {
     line-height: normal;
     letter-spacing: calc(-0.821 / 430 * 100vw);
 }
+
+.text-content-card-content4-container1 div {
+    gap: calc(10 / 430 * 100vw);
+}
+
 .content-card-content4-container1 p {
     color: #707C93;
     text-align: center;
     font-family: var(--paragraph-24px-book-font-family);
-    font-size: calc(15.385 / 430 * 100vw);
+    font-size: calc(16 / 430 * 100vw);
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -520,7 +533,7 @@ header {
 
 .background-content4-container1 {
     width: calc(396 / 430 * 100vw);
-    height: 1626px;
+    height: 990px;
     border-radius: 15px;
     border: 0.321px solid #1F4283;
     margin: 0;
@@ -3657,7 +3670,7 @@ header {
 
 .content3-logo-plans-mquery {
     display: block;
-    margin-top: calc( 83 / 430 * 100vw);
+    margin: calc( 83 / 430 * 100vw) 0;
     width: calc(430 / 430 * 100vw);
     height: calc( 380 / 430 * 100vw);
     object-fit: contain;
@@ -3757,13 +3770,73 @@ header {
     line-height: 130%;
 }
 
+.content-card-content4-container1 {
+    display: flex;
+    flex-direction: column;
+    width: calc(367 / 430* 100vw);
+    height: calc(670 / 430* 100vw);
+    padding: calc(11.538 / 430* 100vw) calc(11.538 / 430* 100vw);
+    border-radius: 19.231px;
+    gap: calc(80 / 430* 100vw);
+}
+.content-card-content4-container1 img {
+    width: calc(328.923 / 430* 100vw);
+    height: calc(232.282 / 430* 100vw);
+    border-radius: 19.231px;
+}
+
+.text-content-card-content4-container1 svg {
+    width: calc(34 / 430 * 100vw);
+    height: calc(34 / 430 * 100vw);
+}
+
+.content-card-content4-container1 h3 {
+    color: #1F4283;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(20.513 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.821 / 430 * 100vw);
+}
+
+.text-content-card-content4-container1 div {
+    gap: calc(10 / 430 * 100vw);
+}
+
+.content-card-content4-container1 p {
+    color: #707C93;
+    text-align: center;
+    font-family: var(--paragraph-24px-book-font-family);
+    font-size: calc(16 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content-card-content4-container1 button {
+    padding: 12.821px calc(30.769 / 430 * 100vw);
+    width: calc(115.54 / 430 * 100vw);
+    height: calc(42.64 / 430 * 100vw);
+    border-radius: 9.615px;
+    background: #1F4283;
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(16.026 / 430 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(-0.641 / 430 * 100vw);
+}
+
 .background-content4-container1 {
     width: calc(396 / 430 * 100vw);
-    height: calc( 1626 / 430 * 100vw);
-    border-radius: calc( 15 / 430 * 100vw);
-    border: calc( 0.321 / 430 * 100vw) solid #1F4283;
+    height: calc( 990 / 430 * 100vw);
+    border-radius: 15px;
+    border: 0.321px solid #1F4283;
     margin: 0;
-}   
+}
 
 .subtitle-content4-container1 {
     color: #FFF;
@@ -3777,53 +3850,6 @@ header {
     margin-bottom: calc( 61 / 430 * 100vw);
     display: flex;
     flex-direction: column;
-}
-
-.content-card-content4-container1 {
-    width: calc(325 / 430 * 100vw);
-    height: calc( 420 / 430 * 100vw);
-    padding: calc( 11.538 / 430 * 100vw) calc(11.538 / 430 * 100vw);
-    border-radius: calc( 19.231 / 430 * 100vw);
-    gap: calc( 25 / 430 * 100vw);
-}
-.content-card-content4-container1 img {
-    width: calc(301.923 / 430 * 100vw);
-    height: calc( 201.282 / 430 * 100vw);
-    border-radius: calc( 19.231 / 430 * 100vw);
-}
-.content-card-content4-container1 h3 {
-    color: #1F4283;
-    text-align: center;
-    font-family: Gordita;
-    font-size: calc(20.513 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: calc(-0.821 / 430 * 100vw);
-}
-.content-card-content4-container1 p {
-    color: #707C93;
-    text-align: center;
-    font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
-    font-size: calc(15.385 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-}
-.content-card-content4-container1 button {
-    padding: calc( 12.821 / 430 * 100vw) calc(30.769 / 430 * 100vw);
-    width: calc(115.54 / 430 * 100vw);
-    height: calc( 42.64 / 430 * 100vw);
-    border-radius: calc( 9.615 / 430 * 100vw);
-    background: #1F4283;
-    color: #FFF;
-    text-align: center;
-    font-family: Gordita;
-    font-size: calc(16.026 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: calc(-0.641 / 430 * 100vw);
 }
 /* Container1 End */
 
@@ -4550,6 +4576,14 @@ header {
     letter-spacing: calc(-0.64 / 430 * 100vw);
     top: calc( 26.7 / 430 * 100vw);
     opacity: 0.5;
+}
+
+.container5-content-container {
+    top: calc( 170 / 430 * 100vw);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    gap: calc( 6.5 / 430 * 100vw);
 }
 /* Container5 End */
 
