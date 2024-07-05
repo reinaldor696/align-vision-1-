@@ -90,7 +90,7 @@ navResources.addEventListener('mouseleave', () => {
     ScrollTrigger.create({
         trigger: "#home",
         start: "top top",
-        end: "bottom bottom",
+        end: "bottom top",
         onUpdate: (self) => {
             let curScroll = self.scroll();
             if (curScroll > prevScroll) { 
