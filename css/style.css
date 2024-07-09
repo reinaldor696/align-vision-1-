@@ -122,6 +122,18 @@ header {
     cursor: pointer;
 }
 
+.nav-bar li:hover {
+    cursor: pointer;
+    color: #1F4283;
+    font-size: 1.09375vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -.84px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .resources-menu {
     display: none;
     position: absolute;
@@ -154,6 +166,10 @@ header {
 #nav-resources2 {
     position: relative;
     height: calc(140 / 1080* 100vh);
+}
+
+#nav-resources2 li:hover {
+    color: #1F4283;
 }
 
 .nav-resources {

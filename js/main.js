@@ -7,10 +7,6 @@ const navResourcesSvg = document.querySelector('.nav-resources svg');
 const headerContainer = document.getElementById('header-container');
 /* header end */
 
-/* container1 */
-const counterContainer1 = document.getElementById('counter-container1');
-/* container1 end */
-
 /* section services */
 const servicesTitle2 = document.querySelector('.services-title-2');
 const servicesCard = document.querySelector('.services-card');
@@ -88,7 +84,7 @@ navResources.addEventListener('mouseleave', () => {
     let curDirection = 0;
 
     ScrollTrigger.create({
-        trigger: "#home",
+        trigger: "#home, .about-us, .blog-single, .contact-us, .our-blog, .services-open",
         start: "top top",
         end: "bottom top",
         onUpdate: (self) => {
@@ -122,29 +118,396 @@ navResources.addEventListener('mouseleave', () => {
 /* container1 */
 function counterContainer1Animation() {
 
+    let counter = 0;
+
     //animation counter
-    const timeline = gsap.timeline({
+    gsap.timeline({
         scrollTrigger: {
             trigger: ".content3-container1",
             start: "top center",
             end: "top center",
+            onEnter: () => {
+                // Start the counter when the element is in view
+                if (!window.counterInterval) {  // Check if the counter is already running  
+                    window.counterInterval = setInterval(() => {
+                        if (counter < 1000) {
+                            counter++;
+                            const counterElement = document.getElementById('counter-container1');
+                            if(counterElement) { // Check if the element exists
+                            counterElement.innerHTML = counter; // Update the element with the new value
+                            }
+                        } else {
+                            // Stop the counter when it reaches 1000
+                            clearInterval(window.counterInterval);
+                            window.counterInterval = null; // Reset the counter
+                        }
+                    }, 0.05); // 0.05ms
+                }
+            }
         }
     });
-    
 
-    timeline.fromTo(counterContainer1,
-        { 
-            innerHTML: 0 
-        }, {
-            innerHTML: 1000,
-            duration: 2,
-            onUpdate: () => {
-                counterContainer1.innerHTML = Math.round(counterContainer1.innerHTML);
-            }
-    });
 }
 counterContainer1Animation();
 /* container1 end */
+
+
+/* section menu mquery */
+const menuMquery = document.querySelector('.menu-mquery-container');
+const caseStudiesBlogMenuMquery = document.querySelector('.case-studies-blog-menu-mquery');
+const resourceMenuMquerySvg = document.querySelector('.resource-menu-mquery svg');
+
+function openMenuMquery() {
+    menuMquery.style.display = 'block';
+}
+
+function closeMenuMquery() {
+    menuMquery.style.display = 'none';
+
+    if(caseStudiesBlogMenuMquery.style.display === 'block') {
+        caseStudiesBlogMenuMquery.style.display = 'none';
+        resourceMenuMquerySvg.style.transform = 'rotate(0deg)';
+    }
+}
+
+function resourceOptions() {
+    if(caseStudiesBlogMenuMquery.style.display === 'flex') {
+        caseStudiesBlogMenuMquery.style.display = 'none';
+        resourceMenuMquerySvg.style.transform = 'rotate(0deg)';
+    } else {
+        caseStudiesBlogMenuMquery.style.display = 'flex';
+        resourceMenuMquerySvg.style.transform = 'rotate(180deg)';
+    }
+}
+/* section menu mquery End */
+
+/* section home animation */
+function homeAnimationSection1() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        
+        //header animation
+        gsap.fromTo('.header-container', 
+            { opacity: 0, y: '-50%' },
+            { duration: 1, opacity: 1, y: 0 }
+        );
+
+
+        //section 1 animation
+        gsap.fromTo('.img-home-background1, .content1-container1-content', 
+            { opacity: 0, x: '-10%' },
+            { duration: 1, opacity: 1, x: 0 }
+        );
+
+        gsap.fromTo('.img-home-background1', 
+            {  width: '85%' },
+            { duration: 1, width: '100%' }
+        );
+
+
+        //section 2 animation
+        gsap.fromTo('.content2-container1', 
+            { opacity: 0, x: '10%' },
+            { duration: 1, opacity: 1, x: 0 }
+        );
+
+        gsap.fromTo('.overlap-group', 
+            { opacity: 0, x: '10%', width: '50%' },
+            { opacity: 1, x: 0, width: '100%', duration: 1, }
+        );
+
+        //animation tablet
+        gsap.fromTo('.patients-square', 
+            { opacity: 0, x: '30%' },
+            { duration: 1, opacity: 1, x: 0 }
+        );
+
+        //animation phone
+        gsap.fromTo('.phone', 
+            { opacity: 0, y: '30%', transform: 'rotate(-25deg)' },
+            { opacity: 1, y: 0, transform: 'rotate(0deg)', duration: 1 }
+        );
+    }
+}
+homeAnimationSection1();
+
+function homeAnimationSection2() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.content4-container1',
+                start: 'top bottom',
+                end: 'top bottom',
+            }
+        });
+
+        tl.fromTo('.content4-container1', 
+            { y: '20%' },
+            { y: 0, duration: 1 }
+        );
+
+        tl.fromTo('.content-card-content4-container1', 
+            { y: '50%', opacity: 0},
+            { y: 0, opacity: 1, duration: 1 },
+        '-=0.5');
+
+        tl.fromTo('.background-content4-container1', 
+            
+            { width: 'calc(1920 / 1920* 100vw)', margin: 0, borderRadius: 0 },
+            
+            {   
+                width: 'calc(1820 / 1920* 100vw)',
+                marginLeft: 'calc(50 / 1920* 100vw)',
+                borderRadius: '35px',
+                duration: 1
+            },
+        '-=0.5');
+    }
+}
+homeAnimationSection2();
+
+function homeAnimationSection3() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.text123-content1-container2-container',
+                start: 'top center',
+                end: '700 center',
+                scrub: 1,
+                stagger: 4
+            }
+        });
+
+        tl.fromTo('.img-text1-content1-container2 img', 
+            { x: '40%' },
+            { x: 0, duration: 1 }
+        );
+
+        tl.fromTo('.img-text2-content1-container2 img', 
+            { x: '40%' },
+            { x: 0, duration: 1 }
+        );
+
+        tl.fromTo('.img-text3-content1-container2 img', 
+            { x: '90%' },
+            { x: 0, duration: 1 }
+        );
+    }
+}
+homeAnimationSection3();
+
+function homeAnimationSection4() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.all-doctors-cards-container',
+                start: 'top bottom',
+                end: '700 bottom',
+            }
+        });
+
+        tl.fromTo('.img-content2-container2 img', 
+            { scale: 0  },
+            { scale: 1, duration: 1 }
+        );
+
+        tl.fromTo('.doctors-cards-container', 
+            { scale: 0.8, opacity: 0.8 },
+            { scale: 1, opacity: 1, duration: 1 },
+        '-=1');
+    }
+}
+homeAnimationSection4();
+
+function homeAnimationSection5() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.content3-container2',
+                start: 'top bottom',
+                end: 'top bottom',
+            }
+        });
+
+        tl.fromTo('.content3-container2', 
+            { y: '20%' },
+            { y: 0, duration: 1 }
+        );
+
+        tl.fromTo('.content-card-content3-container2', 
+            { y: '50%', opacity: 0},
+            { y: 0, opacity: 1, duration: 1 },
+        '-=0.5');
+
+        tl.fromTo('.background-content3-container2', 
+            
+            { width: 'calc(1920 / 1920* 100vw)', margin: 0, borderRadius: 0 },
+            
+            {   
+                width: 'calc(1820 / 1920* 100vw)',
+                marginLeft: 'calc(50 / 1920* 100vw)',
+                borderRadius: '35px',
+                duration: 1
+            },
+        '-=0.5');
+    }
+}
+homeAnimationSection5();
+
+function homeAnimationSection6() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container3-div',
+                start: 'top 500',
+                end: 'top 500',
+            }
+        });
+
+        tl.fromTo('#container3-img1', 
+            { transform: 'rotate(-179deg)' },
+            { transform: 'rotate(0deg)', duration: 1 }
+        );
+        
+        tl.fromTo('#container3-text-wrapper-3-1', 
+            { x: '25vw' },
+            { x: 0, duration: 1 },
+        '-=1');
+
+        tl.fromTo('#container3-div-2-1', 
+            { x: '70%' },
+            { x: 0, duration: 1 },
+        '-=1');
+    }
+}
+homeAnimationSection6();
+
+function homeAnimationSection7() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container3-div-3',
+                start: 'top 500',
+                end: 'top 500',
+            }
+        });
+
+        tl.fromTo('#container3-img2', 
+            { transform: 'rotate(-179deg)' },
+            { transform: 'rotate(0deg)', duration: 1 }
+        );
+        
+        tl.fromTo('#container3-text-wrapper-3-2', 
+            { x: '25vw' },
+            { x: 0, duration: 1 },
+        '-=1');
+
+        tl.fromTo('#container3-div-2-2', 
+            { x: '70%' },
+            { x: 0, duration: 1 },
+        '-=1');
+    }
+}
+homeAnimationSection7();
+
+function homeAnimationSection8() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container3-div-4',
+                start: 'top 500',
+                end: 'top 500',
+            }
+        });
+
+        tl.fromTo('#container3-img3', 
+            { transform: 'rotate(-179deg)' },
+            { transform: 'rotate(0deg)', duration: 1 }
+        );
+        
+        tl.fromTo('#container3-text-wrapper-3-3', 
+            { x: '25vw' },
+            { x: 0, duration: 1 },
+        '-=1');
+
+        tl.fromTo('#container3-div-2-3', 
+            { x: '70%' },
+            { x: 0, duration: 1 },
+        '-=1');
+    }
+}
+homeAnimationSection8();
+
+function homeAnimationSection9() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.container4-content',
+                start: 'top 400',
+                end: 'top 400',
+            }
+        });
+
+        tl.fromTo('.container4-content-vector', 
+            { transform: 'rotate(-179deg)' },
+            { transform: 'rotate(0deg)', duration: 1 }
+        );
+    }
+}
+homeAnimationSection9();
+
+function homeAnimationSection11() {
+    if (matchMedia("(min-width: 1024px)").matches) {
+        const tl = gsap.timeline({ 
+            scrollTrigger: { 
+                trigger: '.footer-overlap',
+                start: 'top center',
+                end: 'top center',
+            }
+        });
+
+        //time 1
+        tl.fromTo('.footer-div', 
+            { y: '190%', x: '-50%'},
+            { y: '124%', x: '-108%', duration: 1, delay: 4 }
+        );
+
+        tl.fromTo('.footer-ellipse', 
+            { y: '140%', x: '65%' },
+            { y: '36%', x: '45%', duration: 1 },
+        '-=1');
+        
+        //time 2
+        tl.to('.footer-div', 
+            { y: 0, x: 0, duration: 1, delay: 4 }
+        );
+
+        tl.to('.footer-ellipse', 
+            { y: 0, x: 0, duration: 1 },
+        '-=1');
+
+        //time 3
+        tl.to('.footer-div', 
+            { y: '78%', x: '-51%', duration: 1, delay: 4 },
+        );
+
+        tl.to('.footer-ellipse', 
+            { y: '85%', x: '45%', duration: 1 },
+        '-=1');
+
+        //time 4
+        tl.to('.footer-div', 
+            { y: '130%', x: '-50%', duration: 1, delay: 4 }
+        );
+
+        tl.to('.footer-ellipse', 
+            { y: '140%', duration: 1 },
+        '-=1');
+
+        tl.repeat(-1);
+    }
+}
+homeAnimationSection11();
+/* section home animation */
 
 /* section case studies */
 function caseStudies() {
@@ -577,360 +940,3 @@ function updateImage() {
     });
 }
 /* section case studies End */
-
-/* section menu mquery */
-const menuMquery = document.querySelector('.menu-mquery-container');
-const caseStudiesBlogMenuMquery = document.querySelector('.case-studies-blog-menu-mquery');
-const resourceMenuMquerySvg = document.querySelector('.resource-menu-mquery svg');
-
-function openMenuMquery() {
-    menuMquery.style.display = 'block';
-}
-
-function closeMenuMquery() {
-    menuMquery.style.display = 'none';
-
-    if(caseStudiesBlogMenuMquery.style.display === 'block') {
-        caseStudiesBlogMenuMquery.style.display = 'none';
-        resourceMenuMquerySvg.style.transform = 'rotate(0deg)';
-    }
-}
-
-function resourceOptions() {
-    if(caseStudiesBlogMenuMquery.style.display === 'flex') {
-        caseStudiesBlogMenuMquery.style.display = 'none';
-        resourceMenuMquerySvg.style.transform = 'rotate(0deg)';
-    } else {
-        caseStudiesBlogMenuMquery.style.display = 'flex';
-        resourceMenuMquerySvg.style.transform = 'rotate(180deg)';
-    }
-}
-/* section menu mquery End */
-
-/* section home animation */
-function homeAnimationSection1() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        
-        //header animation
-        gsap.fromTo('.header-container', 
-            { opacity: 0, y: '-50%' },
-            { duration: 1, opacity: 1, y: 0 }
-        );
-
-
-        //section 1 animation
-        gsap.fromTo('.img-home-background1, .content1-container1-content', 
-            { opacity: 0, x: '-10%' },
-            { duration: 1, opacity: 1, x: 0 }
-        );
-
-        gsap.fromTo('.img-home-background1', 
-            {  width: '85%' },
-            { duration: 1, width: '100%' }
-        );
-
-
-        //section 2 animation
-        gsap.fromTo('.content2-container1', 
-            { opacity: 0, x: '10%' },
-            { duration: 1, opacity: 1, x: 0 }
-        );
-
-        gsap.fromTo('.overlap-group', 
-            { opacity: 0, x: '10%', width: '50%' },
-            { opacity: 1, x: 0, width: '100%', duration: 1, }
-        );
-
-        //animation tablet
-        gsap.fromTo('.patients-square', 
-            { opacity: 0, x: '30%' },
-            { duration: 1, opacity: 1, x: 0 }
-        );
-
-        //animation phone
-        gsap.fromTo('.phone', 
-            { opacity: 0, y: '30%', transform: 'rotate(-25deg)' },
-            { opacity: 1, y: 0, transform: 'rotate(0deg)', duration: 1 }
-        );
-    }
-}
-homeAnimationSection1();
-
-function homeAnimationSection2() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.content4-container1',
-                start: 'top bottom',
-                end: 'top bottom',
-            }
-        });
-
-        tl.fromTo('.content4-container1', 
-            { y: '20%' },
-            { y: 0, duration: 1 }
-        );
-
-        tl.fromTo('.content-card-content4-container1', 
-            { y: '50%', opacity: 0},
-            { y: 0, opacity: 1, duration: 1 },
-        '-=0.5');
-
-        tl.fromTo('.background-content4-container1', 
-            
-            { width: 'calc(1920 / 1920* 100vw)', margin: 0, borderRadius: 0 },
-            
-            {   
-                width: 'calc(1820 / 1920* 100vw)',
-                marginLeft: 'calc(50 / 1920* 100vw)',
-                borderRadius: '35px',
-                duration: 1
-            },
-        '-=0.5');
-    }
-}
-homeAnimationSection2();
-
-function homeAnimationSection3() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.text123-content1-container2-container',
-                start: 'top center',
-                end: '700 center',
-                scrub: 1,
-                stagger: 4
-            }
-        });
-
-        tl.fromTo('.img-text1-content1-container2 img', 
-            { x: '40%' },
-            { x: 0, duration: 1 }
-        );
-
-        tl.fromTo('.img-text2-content1-container2 img', 
-            { x: '40%' },
-            { x: 0, duration: 1 }
-        );
-
-        tl.fromTo('.img-text3-content1-container2 img', 
-            { x: '90%' },
-            { x: 0, duration: 1 }
-        );
-    }
-}
-homeAnimationSection3();
-
-function homeAnimationSection4() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.all-doctors-cards-container',
-                start: 'top bottom',
-                end: '700 bottom',
-            }
-        });
-
-        tl.fromTo('.img-content2-container2 img', 
-            { scale: 0  },
-            { scale: 1, duration: 1 }
-        );
-
-        tl.fromTo('.doctors-cards-container', 
-            { scale: 0.8, opacity: 0.8 },
-            { scale: 1, opacity: 1, duration: 1 },
-        '-=1');
-    }
-}
-homeAnimationSection4();
-
-function homeAnimationSection5() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.content3-container2',
-                start: 'top bottom',
-                end: 'top bottom',
-            }
-        });
-
-        tl.fromTo('.content3-container2', 
-            { y: '20%' },
-            { y: 0, duration: 1 }
-        );
-
-        tl.fromTo('.content-card-content3-container2', 
-            { y: '50%', opacity: 0},
-            { y: 0, opacity: 1, duration: 1 },
-        '-=0.5');
-
-        tl.fromTo('.background-content3-container2', 
-            
-            { width: 'calc(1920 / 1920* 100vw)', margin: 0, borderRadius: 0 },
-            
-            {   
-                width: 'calc(1820 / 1920* 100vw)',
-                marginLeft: 'calc(50 / 1920* 100vw)',
-                borderRadius: '35px',
-                duration: 1
-            },
-        '-=0.5');
-    }
-}
-homeAnimationSection5();
-
-function homeAnimationSection6() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.container3-div',
-                start: 'top 500',
-                end: 'top 500',
-            }
-        });
-
-        tl.fromTo('#container3-img1', 
-            { transform: 'rotate(-179deg)' },
-            { transform: 'rotate(0deg)', duration: 1 }
-        );
-        
-        tl.fromTo('#container3-text-wrapper-3-1', 
-            { x: '25vw' },
-            { x: 0, duration: 1 },
-        '-=1');
-
-        tl.fromTo('#container3-div-2-1', 
-            { x: '70%' },
-            { x: 0, duration: 1 },
-        '-=1');
-    }
-}
-homeAnimationSection6();
-
-function homeAnimationSection7() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.container3-div-3',
-                start: 'top 500',
-                end: 'top 500',
-            }
-        });
-
-        tl.fromTo('#container3-img2', 
-            { transform: 'rotate(-179deg)' },
-            { transform: 'rotate(0deg)', duration: 1 }
-        );
-        
-        tl.fromTo('#container3-text-wrapper-3-2', 
-            { x: '25vw' },
-            { x: 0, duration: 1 },
-        '-=1');
-
-        tl.fromTo('#container3-div-2-2', 
-            { x: '70%' },
-            { x: 0, duration: 1 },
-        '-=1');
-    }
-}
-homeAnimationSection7();
-
-function homeAnimationSection8() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.container3-div-4',
-                start: 'top 500',
-                end: 'top 500',
-            }
-        });
-
-        tl.fromTo('#container3-img3', 
-            { transform: 'rotate(-179deg)' },
-            { transform: 'rotate(0deg)', duration: 1 }
-        );
-        
-        tl.fromTo('#container3-text-wrapper-3-3', 
-            { x: '25vw' },
-            { x: 0, duration: 1 },
-        '-=1');
-
-        tl.fromTo('#container3-div-2-3', 
-            { x: '70%' },
-            { x: 0, duration: 1 },
-        '-=1');
-    }
-}
-homeAnimationSection8();
-
-function homeAnimationSection9() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.container4-content',
-                start: 'top 400',
-                end: 'top 400',
-            }
-        });
-
-        tl.fromTo('.container4-content-vector', 
-            { transform: 'rotate(-179deg)' },
-            { transform: 'rotate(0deg)', duration: 1 }
-        );
-    }
-}
-homeAnimationSection9();
-
-function homeAnimationSection11() {
-    if (matchMedia("(min-width: 1024px)").matches) {
-        const tl = gsap.timeline({ 
-            scrollTrigger: { 
-                trigger: '.footer-overlap',
-                start: 'top center',
-                end: 'top center',
-            }
-        });
-
-        //time 1
-        tl.fromTo('.footer-div', 
-            { y: '190%', x: '-50%'},
-            { y: '124%', x: '-108%', duration: 1, delay: 4 }
-        );
-
-        tl.fromTo('.footer-ellipse', 
-            { y: '140%', x: '65%' },
-            { y: '36%', x: '45%', duration: 1 },
-        '-=1');
-        
-        //time 2
-        tl.to('.footer-div', 
-            { y: 0, x: 0, duration: 1, delay: 4 }
-        );
-
-        tl.to('.footer-ellipse', 
-            { y: 0, x: 0, duration: 1 },
-        '-=1');
-
-        //time 3
-        tl.to('.footer-div', 
-            { y: '78%', x: '-51%', duration: 1, delay: 4 },
-        );
-
-        tl.to('.footer-ellipse', 
-            { y: '85%', x: '45%', duration: 1 },
-        '-=1');
-
-        //time 4
-        tl.to('.footer-div', 
-            { y: '130%', x: '-50%', duration: 1, delay: 4 }
-        );
-
-        tl.to('.footer-ellipse', 
-            { y: '140%', duration: 1 },
-        '-=1');
-
-        tl.repeat(-1);
-    }
-}
-homeAnimationSection11();
-/* section home animation */
