@@ -3125,14 +3125,14 @@ footer {
 }
 
 .case-studies-bar-overlap {
-    top: calc(631.58 / 430 * 100vw);
+    top: 631.58px;
     left: calc(10 / 430 * 100vw);
     height: auto;
     width: auto;
 }
 
 .case-studies-bar-case-study-2 {
-    top: calc( 631.58  / 430 * 100vw);
+    top: 631.58px;
     left: calc(154 / 430 * 100vw);
     height: auto;
     width: auto;
@@ -3143,7 +3143,7 @@ footer {
 }
 
 .case-studies-bar-case-study-3 {
-    top: calc( 631.58  / 430 * 100vw);
+    top: 631.58px;
     left: calc(300 / 430 * 100vw);
     height: auto;
     width: auto;
