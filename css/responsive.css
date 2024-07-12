@@ -1244,9 +1244,6 @@ header {
     border-radius: 9.487px;
     width: calc(185 / 430 * 100vw);
     height: 57.3px;
-}
-
-.container5-content-get-started-today {
     color: var(--White, #FFF);
     text-align: center;
     font-family: Gordita;
@@ -1262,9 +1259,6 @@ header {
     border-radius: 9.487px;
     width: calc(185 / 430 * 100vw);
     height: 57.3px;
-}
-
-.container5-content-get-started-today-2 {
     color: #1F4283;
     text-align: center;
     font-family: Gordita;
@@ -1376,21 +1370,12 @@ footer {
 }
 
 .footer-btn-a {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.footer-btn {
     position: relative;
     top: 261px;
     left: calc(217 / 430 * 100vw);
     padding: 9.226px calc(22.039 / 430 * 100vw);
     border-radius: 7.688px;
     box-shadow: 0px 1.025px 17.427px 3.075px rgba(31, 66, 131, 0.17);
-}
-
-.text-wrapper {
     color: #1F4283;
     text-align: right;
     font-family: Gordita;
@@ -4535,9 +4520,6 @@ header {
     border-radius: calc( 9.487 / 430 * 100vw);
     width: calc(185 / 430 * 100vw);
     height: calc( 57.3 / 430 * 100vw);
-}
-
-.container5-content-get-started-today {
     color: var(--White, #FFF);
     text-align: center;
     font-family: Gordita;
@@ -4553,9 +4535,6 @@ header {
     border-radius: calc( 9.487 / 430 * 100vw);
     width: calc(185 / 430 * 100vw);
     height: calc( 57.3 / 430 * 100vw);
-}
-
-.container5-content-get-started-today-2 {
     color: #1F4283;
     text-align: center;
     font-family: Gordita;
@@ -4675,21 +4654,12 @@ footer {
 }
 
 .footer-btn-a {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.footer-btn {
     position: relative;
     top: calc( 261 / 430 * 100vw);
     left: calc(217 / 430 * 100vw);
     padding: calc( 9.226 / 430 * 100vw) calc(22.039 / 430 * 100vw);
     border-radius: calc( 7.688 / 430 * 100vw);
     box-shadow: calc( 0 / 430 * 100vw) calc( 1.025 / 430 * 100vw) calc( 17.427 / 430 * 100vw) calc( 3.075 / 430 * 100vw) rgba(31, 66, 131, 0.17);
-}
-
-.text-wrapper {
     color: #1F4283;
     text-align: right;
     font-family: Gordita;
