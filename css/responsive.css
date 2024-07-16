@@ -1986,7 +1986,8 @@ footer {
 
 /* Blog single page */
 .blog-single-div {
-    height: 12065px;
+    height: auto;
+    padding-bottom: 271px;
 }
 
 .blog-single-overlap {
@@ -2016,6 +2017,12 @@ footer {
     width: calc(353 / 430 * 100vw);
     height: 0.5px;
     background-color: #FFF;
+}
+
+.blog-content-container {
+    top: 88px;
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
 }
 
 .blog-single-chip-2 {
@@ -2065,8 +2072,6 @@ footer {
 }
 
 .blog-single-clear-aligners-and {
-    top: 368px;
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-24px-book-font-family);
@@ -2088,8 +2093,6 @@ footer {
 }
 
 .blog-single-here-is-a-quick {
-    top: 689px;
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-24px-book-font-family);
@@ -2111,8 +2114,6 @@ footer {
 }
 
 .blog-single-people-are {
-    top: 1490px;
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-24px-book-font-family);
@@ -2145,8 +2146,6 @@ footer {
 }
 
 .blog-single-brackets-brackets {
-    top: 1915px;
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-24px-book-font-family);
@@ -2168,8 +2167,6 @@ footer {
 }
 
 .blog-single-pressure-and-tension {
-    top: 2459px;
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-24px-book-font-family);
@@ -2250,8 +2247,6 @@ footer {
 }
 
 .blog-single-customized-design {
-    top: 4059px;
-    left: calc(24 / 430* 100vw);
     width: calc(378 / 430* 100vw);
     color: #707C93;
     font-family: var(--paragraph-24px-book-font-family);
@@ -2259,6 +2254,10 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+}
+
+.blog-single-text-wrapper-17 {
+    font-size: calc(18 / 430 * 100vw);
 }
 
 .blog-single-text-wrapper-26 {
@@ -2419,14 +2418,12 @@ footer {
 }
 
 .blog-single-text-wrapper-21 {
-    top: 9930px;
-    left: calc(24 / 430* 100vw);
     color: #152D5A;
     font-family: Gordita;
     font-size: calc(24 / 430 * 100vw);
     font-style: normal;
     font-weight: 500;
-    width: auto;
+    width: calc(380 / 430 * 100vw);
 }
 
 .blog-single-ultimately-you {
@@ -2441,7 +2438,6 @@ footer {
 }
 
 .blog-single-text-wrapper {
-    top: 10400px;
     left: calc(26 / 430* 100vw);
     color: #1F4283;
     text-align: right;
@@ -2454,10 +2450,18 @@ footer {
 }
 
 .blog-single-row {
-    top: 10462px;
+    width: calc(378 / 430 * 100vw);
+    top: 204px;
     left: calc(26 / 430 * 100vw);
     display: flex;
     flex-direction: column;
+    gap: 39px;
+}
+
+.blog-single-post-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 26.5px;
 }
 
 .blog-single-post-card {
@@ -5201,7 +5205,8 @@ footer {
 
 /* Blog single page */
 .blog-single-div {
-    height: calc( 12065 / 430 * 100vw);
+    height: auto;
+    padding-bottom: calc( 271 / 430 * 100vw);
 }
 
 .blog-single-overlap {
@@ -5231,6 +5236,12 @@ footer {
     width: calc(353 / 430 * 100vw);
     height: calc( 0.5 / 430 * 100vw);
     background-color: #FFF;
+}
+
+.blog-content-container {
+    top: calc( 88 / 430 * 100vw);
+    left: calc(26 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
 }
 
 .blog-single-chip-2 {
@@ -5280,8 +5291,6 @@ footer {
 }
 
 .blog-single-clear-aligners-and {
-    top: calc( 368 / 430 * 100vw);
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
@@ -5303,8 +5312,6 @@ footer {
 }
 
 .blog-single-here-is-a-quick {
-    top: calc( 689 / 430 * 100vw);
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
@@ -5326,8 +5333,6 @@ footer {
 }
 
 .blog-single-people-are {
-    top: calc( 1490 / 430 * 100vw);
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
@@ -5360,8 +5365,6 @@ footer {
 }
 
 .blog-single-brackets-brackets {
-    top: calc( 1915 / 430 * 100vw);
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
@@ -5383,8 +5386,6 @@ footer {
 }
 
 .blog-single-pressure-and-tension {
-    top: calc( 2459 / 430 * 100vw);
-    left: calc(26 / 430 * 100vw);
     width: calc(378 / 430 * 100vw);
     color: #707C93;
     font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
@@ -5465,8 +5466,6 @@ footer {
 }
 
 .blog-single-customized-design {
-    top: calc( 4059 / 430 * 100vw);
-    left: calc(24 / 430* 100vw);
     width: calc(378 / 430* 100vw);
     color: #707C93;
     font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
@@ -5474,6 +5473,10 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: calc( 20 / 430 * 100vw);
+}
+
+.blog-single-text-wrapper-17 {
+    font-size: calc(18 / 430 * 100vw);
 }
 
 .blog-single-text-wrapper-26 {
@@ -5634,8 +5637,6 @@ footer {
 }
 
 .blog-single-text-wrapper-21 {
-    top: calc( 9930 / 430 * 100vw);
-    left: calc(24 / 430* 100vw);
     color: #152D5A;
     font-family: Gordita;
     font-size: calc(24 / 430 * 100vw);
@@ -5656,8 +5657,6 @@ footer {
 }
 
 .blog-single-text-wrapper {
-    top: calc( 10400 / 430 * 100vw);
-    left: calc(26 / 430* 100vw);
     color: #1F4283;
     text-align: right;
     font-family: Gordita;
@@ -5669,10 +5668,18 @@ footer {
 }
 
 .blog-single-row {
-    top: calc( 10462 / 430 * 100vw);
+    width: calc(378 / 430 * 100vw);
+    top: calc( 204 / 430 * 100vw);
     left: calc(26 / 430 * 100vw);
     display: flex;
     flex-direction: column;
+    gap: calc( 39 / 430 * 100vw);
+}
+
+.blog-single-post-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: calc( 26.5 / 430 * 100vw);
 }
 
 .blog-single-post-card {
