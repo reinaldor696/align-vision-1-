@@ -2665,7 +2665,7 @@ footer {
 
 /* About us */
 .about-us-div {
-    height: 3430px;
+    height: 2860px;
 }
 
 .about-us-hero-about-us {
@@ -2819,82 +2819,10 @@ footer {
     height: 645px;
 }
 
-.about-us-frame-3 {
-    top: 643px;
-    height: 475px;
-}
 
-.about-us-value-icons {
-    width: calc(56.233 / 430 * 100vw);
-    height: calc(56.233 / 430 * 100vw);
-    top: 103px;
-    left: calc(187 / 430 * 100vw);
-}
-
-.about-us-text-wrapper-5 {
-    top: 172.4px;
-    left: calc(146 / 430 * 100vw);
-    color: #152D5A;
-    font-family: Gordita;
-    font-size: calc(28 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 126%;
-    letter-spacing: calc(-1.12 / 430 * 100vw);
-}
-
-.about-us-text-wrapper-4 {
-    top: 202.87px;
-    left: calc(112 / 430 * 100vw);
-    color: var(--Brand-color-Primary, #152D5A);
-    font-family: Gordita;
-    font-size: calc(42 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 126%;
-    letter-spacing: calc(-1.68 / 430 * 100vw);
-}
-
-.about-us-img {
-    top: 261.2px;
-    left: calc(215 / 430 * 100vw);
-    height: 28px;
-    width: calc(0.933 / 430 * 100vw);
-}
-
-.about-us-overlap-group {
-    top: 304.6px;
-    left: calc(90 / 430 * 100vw);
-    width: calc(252 / 430 * 100vw);
-}
-
-.about-us-the-alignvision {
-    top: 0;
-    left: 0;
-    color: #94ACE8;
-    text-align: center;
-    font-family: Gordita;
-    font-size: calc(20 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 126%;
-}
-
-.about-us-experience-reduced {
-    top: 59.73px;
-    left: calc(-39 / 430 * 100vw);
-    color: #707C93;
-    text-align: center;
-    font-family: var(--paragraph-24px-book-font-family);
-    font-size: calc(18 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 126%;
-    width: calc(340 / 430 * 100vw);
-}
 
 .about-us-vision {
-    top: 2600px;
+    top: 2060px;
     height: 750px;
 }
 
@@ -5952,7 +5880,7 @@ footer {
 
 /* About us */
 .about-us-div {
-    height: calc( 3430 / 430 * 100vw);
+    height: calc( 2860 / 430 * 100vw);
 }
 
 .about-us-hero-about-us {
@@ -6106,82 +6034,8 @@ footer {
     height: calc( 645 / 430 * 100vw);
 }
 
-.about-us-frame-3 {
-    top: calc( 643 / 430 * 100vw);
-    height: calc( 475 / 430 * 100vw);
-}
-
-.about-us-value-icons {
-    width: calc(56.233 / 430 * 100vw);
-    height: calc(56.233 / 430 * 100vw);
-    top: calc( 103 / 430 * 100vw);
-    left: calc(187 / 430 * 100vw);
-}
-
-.about-us-text-wrapper-5 {
-    top: calc( 172.4 / 430 * 100vw);
-    left: calc(146 / 430 * 100vw);
-    color: #152D5A;
-    font-family: Gordita;
-    font-size: calc(28 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 126%;
-    letter-spacing: calc(-1.12 / 430 * 100vw);
-}
-
-.about-us-text-wrapper-4 {
-    top: calc( 202.87 / 430 * 100vw);
-    left: calc(112 / 430 * 100vw);
-    color: var(--Brand-color-Primary, #152D5A);
-    font-family: Gordita;
-    font-size: calc(42 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 126%;
-    letter-spacing: calc(-1.68 / 430 * 100vw);
-}
-
-.about-us-img {
-    top: calc( 261.2 / 430 * 100vw);
-    left: calc(215 / 430 * 100vw);
-    height: calc( 28 / 430 * 100vw);
-    width: calc(0.933 / 430 * 100vw);
-}
-
-.about-us-overlap-group {
-    top: calc( 304.6 / 430 * 100vw);
-    left: calc(90 / 430 * 100vw);
-    width: calc(252 / 430 * 100vw);
-}
-
-.about-us-the-alignvision {
-    top: 0;
-    left: 0;
-    color: #94ACE8;
-    text-align: center;
-    font-family: Gordita;
-    font-size: calc(20 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 126%;
-}
-
-.about-us-experience-reduced {
-    top: calc( 59.73 / 430 * 100vw);
-    left: calc(-39 / 430 * 100vw);
-    color: #707C93;
-    text-align: center;
-    font-family: var(--paragraph-calc( 24 / 430 * 100vw)-book-font-family);
-    font-size: calc(18 / 430 * 100vw);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 126%;
-    width: calc(340 / 430 * 100vw);
-}
-
 .about-us-vision {
-    top: calc( 2600 / 430 * 100vw);
+    top: calc( 2060 / 430 * 100vw);
     height: calc( 750 / 430 * 100vw);
 }
 

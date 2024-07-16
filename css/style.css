@@ -4554,7 +4554,7 @@ header {
     background-color: #f9f7ff;
     overflow: hidden;
     width: calc(1920 / 1920 * 100vw);
-    height: calc(5180 / 1080 * 100vh);
+    height: calc(4300 / 1080 * 100vh);
     position: relative;
 }
 
@@ -4835,7 +4835,7 @@ header {
     position: absolute;
     width: calc(1920 / 1920 * 100vw);
     height: calc(917 / 1080 * 100vh);
-    top: calc(4142 / 1080 * 100vh);
+    top: calc(3300 / 1080 * 100vh);
     left: 0;
 }
 
