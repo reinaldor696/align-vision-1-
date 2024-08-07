@@ -844,7 +844,7 @@ header {
 
 .content-card-content4-container1 {
     width: calc(1487 / 1920* 100vw);
-    height: calc(686 / 1080* 100vh);
+    height: calc(750 / 1080* 100vh);
     display: flex;
     padding: calc(18 / 1080* 100vh) 0 (18 / 1080* 100vh) calc(18 / 1920* 100vw);
     flex-direction: row-reverse;
@@ -940,7 +940,7 @@ header {
     font-weight: 400;
     line-height: normal;
     letter-spacing: calc(-3 / 1920 * 100vw);
-    margin-bottom: calc(69 / 1080 * 100vh);
+    margin: 3% 0 calc(69 / 1080 * 100vh) 0;
 }
 
 .subtitle-content4-container1 span {
@@ -1337,15 +1337,15 @@ header {
 }
 
 .title-content3-container2 {
-    color: #F2F3FE;
+    color: #707C93;
     text-align: center;
     font-family: Gordita;
-    font-size: calc(22 / 1920 * 100vw);
+    font-size: calc(25 / 1920 * 100vw);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: calc(1.76 / 1920 * 100vw);
-    margin: calc(70 / 1080 * 100vh) 0 calc(22 / 1080 * 100vh) 0;
+    margin: calc(20 / 1080 * 100vh) 0 calc(10 / 1080 * 100vh) 0;
 }
 
 .subtitle-content3-container2 {
@@ -1764,12 +1764,14 @@ header {
     position: relative;
     width: 100vw;
     height: 69.791667vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container5-content-give-your-patients {
     position: absolute;
     top: 14.479167vw;
-    left: 18.645833vw;
     font-family: "Gordita-Regular", Helvetica;
     font-weight: 400;
     color: #1f4283;
@@ -4091,7 +4093,7 @@ header {
 .blog-content-container {
     position: relative;
     top: calc(173 / 1080 * 100vh);
-    left: calc(800 / 1920 * 100vw);
+    left: 8%;
     display: flex;
     flex-direction: column;
 }
@@ -4102,22 +4104,20 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: transparent;
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-span {
     color: #152d5a;
-    font-size: calc(27 / 1920 * 100vw);
+    font-size: 1.688rem;
     font-style: normal;
     font-weight: 500;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-text-wrapper-10 {
     color: #707c92;
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
 }
 
 .blog-single-text-wrapper-11 {
@@ -4130,9 +4130,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-here-is-a-quick {
@@ -4141,9 +4140,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size:1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-people-are {
@@ -4152,9 +4150,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-brackets-brackets {
@@ -4163,9 +4160,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-text-wrapper-12 {
@@ -4204,9 +4200,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-physical-discomfort {
@@ -4215,9 +4210,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: transparent;
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-a-modern-alternative {
@@ -4226,9 +4220,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-customized-design {
@@ -4237,9 +4230,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-clear-aligners-are {
@@ -4248,9 +4240,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-clear-aligners {
@@ -4259,9 +4250,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-text-wrapper-15 {
@@ -4320,9 +4310,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: transparent;
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-aesthetic-advantages {
@@ -4331,19 +4320,16 @@ header {
     font-family: "undefined-Regular", Helvetica;
     font-weight: 500;
     color: #707C93;
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(30 / 1080 * 100vh);
 }
-
 .blog-single-text-wrapper-19 {
     margin-top: calc(34 / 1080 * 100vh);
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--brand-colorprimary);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
     white-space: nowrap;
 }
 
@@ -4363,9 +4349,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-visibility-and {
@@ -4374,9 +4359,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: transparent;
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-text-wrapper-21 {
@@ -4395,9 +4379,8 @@ header {
     font-family: "PP Neue Montreal-Medium", Helvetica;
     font-weight: 500;
     color: var(--paragraph-gray);
-    font-size: calc(24 / 1920 * 100vw);
+    font-size: 1.5rem;
     letter-spacing: 0;
-    line-height: calc(32 / 1080 * 100vh);
 }
 
 .blog-single-text-wrapper-22 {
@@ -4405,9 +4388,8 @@ header {
     font-family: "Gordita-Medium", Helvetica;
     font-weight: 500;
     color: var(--brand-colorprimary);
-    font-size: calc(32 / 1920 * 100vw);
+    font-size: 1.7rem;
     letter-spacing: 0;
-    line-height: calc(48 / 1080 * 100vh);
     white-space: nowrap;
 }
 
@@ -4415,9 +4397,8 @@ header {
     font-family: "Gordita-Medium", Helvetica;
     font-weight: 500;
     color: var(--brand-colorprimary);
-    font-size: calc(32 / 1920 * 100vw);
+    font-size: 1.7rem;
     letter-spacing: 0;
-    line-height: calc(48 / 1080 * 100vh);
     white-space: nowrap;
 }
 
@@ -4445,9 +4426,8 @@ header {
     font-family: "Gordita-Medium", Helvetica;
     font-weight: 500;
     color: var(--brand-colorprimary);
-    font-size: calc(27 / 1920 * 100vw);
+    font-size: 1.688rem;
     letter-spacing: 0;
-    line-height: calc(48 / 1080 * 100vh);
     white-space: nowrap;
 }
 

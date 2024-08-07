@@ -108,7 +108,7 @@ navResources.addEventListener('mouseleave', () => {
         if (direction === 2) {
             gsap.to(headerContainer, { duration: 1, y: '-200%'});
         } else {
-            gsap.to(headerContainer, { duration: 1, y: '0'});
+            gsap.to(headerContainer, { duration: 1, y: '0', delay: 1.5 });
         }
     }
 })();
