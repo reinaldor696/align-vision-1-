@@ -32,6 +32,36 @@ headings.forEach(e => {
 // Create a table of contents item for each heading
 headings.forEach(createTocItem);
 
+const tocLinks = document.querySelectorAll('#table-of-contents a');
+
+// Function to handle the intersection
+function handleIntersection(entries) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Remove the active class from all the links
+            tocLinks.forEach(link => link.classList.remove('active'));
+
+            // Get the id of the heading
+            const id = entry.target.id;
+            const correspondingLink = document.querySelector(`#table-of-contents a[href="#${id}"]`);
+            if (correspondingLink) {
+                correspondingLink.classList.add('active');
+            }
+        }
+    });
+}
+
+// Create an observer
+const observer = new IntersectionObserver(handleIntersection, {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+});
+
+// Observe each heading
+headings.forEach(heading => observer.observe(heading));
+
+
 // minRead value
 let minRead = 20
 
@@ -46,10 +76,10 @@ function getNewMinRead(progress) {
 function tocAnimation() {
     const tl = gsap.timeline ({
         scrollTrigger: {
-            trigger: toc,
-            start: 'center center',
-            end: '14500 center',
-            pin: true,
+            trigger: '.blog-content-container',
+            start: 'top 20%',
+            end: 'bottom 80%',
+            pin: toc,
             scrub: true
         }
     });
@@ -60,9 +90,9 @@ function tocAnimation() {
     // Animate the min read text
     gsap.timeline({
         scrollTrigger: {
-            trigger: toc,
-            start: 'center center',
-            end: '14500 center',
+            trigger: '.blog-content-container',
+            start: 'top 20%',
+            end: 'bottom 80%',
             scrub: true,
             onUpdate: (self) => {
                 const progress = self.progress; // Get the progress value

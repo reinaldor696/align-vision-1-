@@ -1337,10 +1337,10 @@ header {
 }
 
 .title-content3-container2 {
-    color: #707C93;
+    color: #FFF;
     text-align: center;
     font-family: Gordita;
-    font-size: calc(25 / 1920 * 100vw);
+    font-size: calc(40 / 1920 * 100vw);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -4114,18 +4114,18 @@ header {
     z-index: 30;
 }
 
-#table-of-contents a, #table-of-contents li {
+.blog-content-container a, #table-of-contents li {
+    color: #333;
     margin-bottom: 10px;
     text-decoration: none;
-    color: #333;
     font-size: 0.7rem;
     font-family: "PP Neue Montreal-Medium", Helvetica;
-    font-weight: 500;
     cursor: pointer;
 }
 
 .active {
-    background-color: red;
+    font-weight: bold;
+    color: #152D5A;
 }
 
 .progress-of-content {
