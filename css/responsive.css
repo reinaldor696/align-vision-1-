@@ -2553,6 +2553,10 @@ footer {
     line-height: normal;
     width: auto;
 }
+
+#table-of-contents {
+    display: none;
+}
 /* Blog single page End */
 
 /* Contact us */
@@ -5770,6 +5774,10 @@ footer {
     font-weight: 700;
     line-height: normal;
     width: auto;
+}
+
+#table-of-contents {
+    display: none;
 }
 /* Blog single page End */
 
