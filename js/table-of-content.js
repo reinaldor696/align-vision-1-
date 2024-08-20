@@ -77,10 +77,11 @@ function tocAnimation() {
     const tl = gsap.timeline ({
         scrollTrigger: {
             trigger: '.blog-content-container',
-            start: 'top 20%',
+            start: 'top 10%',
             end: 'bottom 80%',
             pin: toc,
-            scrub: true
+            scrub: true,
+            markers: true
         }
     });
 
@@ -91,7 +92,7 @@ function tocAnimation() {
     gsap.timeline({
         scrollTrigger: {
             trigger: '.blog-content-container',
-            start: 'top 20%',
+            start: 'top 10%',
             end: 'bottom 80%',
             scrub: true,
             onUpdate: (self) => {
