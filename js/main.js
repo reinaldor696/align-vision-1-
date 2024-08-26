@@ -104,11 +104,23 @@ navResources.addEventListener('mouseleave', () => {
         }
     });
 
+    let hideHeaderTimeout;
+
     function toggleHeader(direction) {
         if (direction === 2) {
-            gsap.to(headerContainer, { duration: 1, y: '-200%'});
+            if (hideHeaderTimeout) { // if scrolling down, clear the timeout
+                clearTimeout(hideHeaderTimeout);
+            }
+            hideHeaderTimeout = setTimeout(() => { // hide the header after 1000ms
+                gsap.to(headerContainer, { duration: 1, y: '-200%' });
+            }, 1000); // 1000ms delay
         } else {
-            gsap.to(headerContainer, { duration: 1, y: '0', delay: 1.5 });
+            if (hideHeaderTimeout) { // if scrolling up, clear the timeout
+                clearTimeout(hideHeaderTimeout);
+            }
+            hideHeaderTimeout = setTimeout(() => { // show the header after 1500ms
+                gsap.to(headerContainer, { duration: 1, y: '0' });
+            }, 1500); //1500ms delay
         }
     }
 })();

@@ -864,7 +864,7 @@ header {
 .text-content-card-content4-container1 {
     display: flex;
     flex-direction: column;
-    gap: calc(60 / 1080* 100vh);
+    gap: calc(55 / 1080* 100vh);
 }
 
 .text-content-card-content4-container1 div {
@@ -918,6 +918,10 @@ header {
     border: none;
     width: calc(180 / 1920 * 100vw);
     height: calc(67 / 1080 * 100vh);
+}
+
+.content-card-content4-container1 > img {
+    object-fit: contain;
 }
 
 .background-content4-container1 {
@@ -1337,7 +1341,7 @@ header {
 }
 
 .title-content3-container2 {
-    color: #FFF;
+    color: #707C93;
     text-align: center;
     font-family: Gordita;
     font-size: calc(40 / 1920 * 100vw);
