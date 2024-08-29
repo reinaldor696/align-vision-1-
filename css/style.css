@@ -1342,10 +1342,10 @@ header {
 }
 
 .title-content3-container2 {
-    color: #707C93;
+    color: #FFF;
     text-align: center;
     font-family: Gordita;
-    font-size: calc(50 / 1920 * 100vw);
+    font-size: calc(75 / 1920 * 100vw);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
