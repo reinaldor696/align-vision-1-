@@ -120,7 +120,7 @@ navResources.addEventListener('mouseleave', () => {
             }
             hideHeaderTimeout = setTimeout(() => { // show the header after 1500ms
                 gsap.to(headerContainer, { duration: 1, y: '0' });
-            }, 1500); //1500ms delay
+            }, 100); //100ms delay
         }
     }
 })();

@@ -846,19 +846,20 @@ header {
     width: calc(1487 / 1920* 100vw);
     height: calc(750 / 1080* 100vh);
     display: flex;
-    padding: calc(18 / 1080* 100vh) 0 (18 / 1080* 100vh) calc(18 / 1920* 100vw);
+    padding: calc(18 / 1080* 100vh) 0 calc(18 / 1080* 100vh) calc(18 / 1920* 100vw);
     flex-direction: row-reverse;
     align-items: center;
-    gap: calc(150 / 1080* 100vh);
+    gap: calc(20 / 1920* 100vw);
     align-self: stretch;
     border-radius: 30px;
     background: #FFF;
 }
 
 .content-card-content4-container1 img {
-    width: calc(653 / 1920* 100vw);
-    height: calc(405 / 1080* 100vh);
-    border-radius: 30px 0 0 30px;
+    width: 55%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: contain;
 }
 
 .text-content-card-content4-container1 {
@@ -1341,22 +1342,22 @@ header {
 }
 
 .title-content3-container2 {
-    color: #707C93;
+    color: #FFF;
     text-align: center;
     font-family: Gordita;
-    font-size: calc(40 / 1920 * 100vw);
+    font-size: calc(75 / 1920 * 100vw);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: calc(1.76 / 1920 * 100vw);
-    margin: calc(20 / 1080 * 100vh) 0 calc(10 / 1080 * 100vh) 0;
+    margin: calc(20 / 1080 * 100vh) 0 calc(30 / 1080 * 100vh) 0;
 }
 
 .subtitle-content3-container2 {
     color: #FFF;
     text-align: center;
     font-family: Gordita;
-    font-size: calc(75 / 1920 * 100vw);
+    font-size: calc(40 / 1920 * 100vw);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1367,7 +1368,7 @@ header {
 .subtitle-content3-container2 span {
     color: #FFF;
     font-family: Gordita;
-    font-size: calc(75 / 1920 * 100vw);
+    font-size: calc(40 / 1920 * 100vw);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1397,6 +1398,7 @@ header {
     width: calc(471 / 1920 * 100vw);
     height: calc(314 / 1080 * 100vh);
     border-radius: 30px;
+    object-fit: contain;
 }
 
 .content-card-content3-container2 h3 {
