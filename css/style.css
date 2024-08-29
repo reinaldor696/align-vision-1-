@@ -1353,6 +1353,18 @@ header {
     margin: calc(20 / 1080 * 100vh) 0 calc(30 / 1080 * 100vh) 0;
 }
 
+.title-content3-container2-our-services {
+    color: #FFF;
+    text-align: center;
+    font-family: Gordita;
+    font-size: calc(75 / 1920 * 100vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: calc(1.76 / 1920 * 100vw);
+    margin: calc(20 / 1080 * 100vh) 0 calc(30 / 1080 * 100vh) 0;
+}
+
 .subtitle-content3-container2 {
     color: #FFF;
     text-align: center;
